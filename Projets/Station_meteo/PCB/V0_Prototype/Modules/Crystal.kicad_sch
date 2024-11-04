@@ -543,10 +543,6 @@
 					(reference "C9")
 					(unit 1)
 				)
-				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/e8e4a864-d5d9-4854-8ef8-3f6ef20b19db/04ccd3ac-5bfb-4453-bc10-2448180068cd"
-					(reference "C7")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -612,10 +608,6 @@
 			(project "Weather"
 				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/3fdb808c-b7d6-448b-be26-584f8a24ea4a"
 					(reference "C10")
-					(unit 1)
-				)
-				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/e8e4a864-d5d9-4854-8ef8-3f6ef20b19db/04ccd3ac-5bfb-4453-bc10-2448180068cd"
-					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -685,10 +677,6 @@
 			(project "Weather"
 				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/3fdb808c-b7d6-448b-be26-584f8a24ea4a"
 					(reference "Y2")
-					(unit 1)
-				)
-				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/e8e4a864-d5d9-4854-8ef8-3f6ef20b19db/04ccd3ac-5bfb-4453-bc10-2448180068cd"
-					(reference "Y1")
 					(unit 1)
 				)
 			)

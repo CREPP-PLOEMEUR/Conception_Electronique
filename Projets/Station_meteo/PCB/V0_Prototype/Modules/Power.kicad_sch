@@ -1171,6 +1171,198 @@
 				)
 			)
 		)
+		(symbol "Jumper:SolderJumper_2_Bridged"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Bridged"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Bridged*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_0_1"
+				(rectangle
+					(start -0.508 0.508)
+					(end 0.508 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Regulator_Linear:AP130-15Y"
 			(pin_names
 				(offset 0.254)
@@ -1458,12 +1650,6 @@
 		(uuid "087e592c-9856-40b3-a91b-00602095cc77")
 	)
 	(junction
-		(at 129.54 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "09886e6c-7312-49ea-a231-7b5e6c8f8549")
-	)
-	(junction
 		(at 160.02 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1612,6 +1798,16 @@
 			(type default)
 		)
 		(uuid "1706fc2d-5fbd-41fc-8133-4dbd95187d26")
+	)
+	(wire
+		(pts
+			(xy 132.08 59.69) (xy 132.08 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1812fc48-6af8-47ad-8e91-bbda62d6a264")
 	)
 	(wire
 		(pts
@@ -1875,16 +2071,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 64.77) (xy 132.08 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8296f958-a3dc-4491-91ae-166376039260")
-	)
-	(wire
-		(pts
 			(xy 165.1 72.39) (xy 160.02 72.39)
 		)
 		(stroke
@@ -2015,7 +2201,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 64.77) (xy 129.54 64.77)
+			(xy 119.38 64.77) (xy 132.08 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2115,7 +2301,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 62.23) (xy 129.54 64.77)
+			(xy 132.08 48.26) (xy 132.08 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2480,7 +2666,7 @@
 	)
 	(hierarchical_label "Vcap"
 		(shape output)
-		(at 129.54 62.23 90)
+		(at 132.08 48.26 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2566,6 +2752,76 @@
 			(project "Weather"
 				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/227f63a5-2f15-4037-8fc8-26de9d1f16ea"
 					(reference "L6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 132.08 55.88 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1393c410-714a-4014-8f8f-ff4792c1c7c2")
+		(property "Reference" "J39"
+			(at 125.73 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 128.27 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
+			(at 132.08 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 132.08 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a695642d-d3f4-43a2-b5ed-6a43cad69e10")
+		)
+		(pin "2"
+			(uuid "37df10fd-be3d-405a-bca1-520aca5fb609")
+		)
+		(instances
+			(project "Weather"
+				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/227f63a5-2f15-4037-8fc8-26de9d1f16ea"
+					(reference "J39")
 					(unit 1)
 				)
 			)
