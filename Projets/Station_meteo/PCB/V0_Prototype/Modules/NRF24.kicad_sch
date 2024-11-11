@@ -1420,16 +1420,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 100.33) (xy 167.64 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ca726b3-7b58-4431-b407-25ffe2f599c8")
-	)
-	(wire
-		(pts
 			(xy 54.61 36.83) (xy 63.5 36.83)
 		)
 		(stroke
@@ -1800,6 +1790,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 100.33) (xy 172.72 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd5aac37-5128-443f-a161-a3bb39c8d140")
+	)
+	(wire
+		(pts
 			(xy 115.57 78.74) (xy 118.11 78.74)
 		)
 		(stroke
@@ -1897,7 +1897,7 @@
 		(uuid "8d183e3d-b231-4002-942c-82590891395b")
 	)
 	(label "GND"
-		(at 167.64 100.33 0)
+		(at 172.72 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1905,7 +1905,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "a71adfcf-3b03-4e38-9d14-217bde959a3a")
+		(uuid "90cf908e-28e2-4a09-b331-551c76dfea2f")
 	)
 	(label "GND"
 		(at 73.66 52.07 0)
@@ -3399,11 +3399,11 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 24 24 143 0.2706)
 		)
-		(uuid "04ccd3ac-5bfb-4453-bc10-2448180068cd")
+		(uuid "9a5e555c-2629-4572-bc9c-a0e6152fe511")
 		(property "Sheetname" "XTAL1"
-			(at 152.654 96.52 0)
+			(at 152.654 97.282 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3429,7 +3429,7 @@
 				)
 				(justify right)
 			)
-			(uuid "773d6559-1ac3-497c-9ed9-48b740a6753f")
+			(uuid "dd810799-e85a-4405-9cac-7ca26f056cf8")
 		)
 		(pin "XTAl_1" bidirectional
 			(at 152.4 99.06 180)
@@ -3439,7 +3439,7 @@
 				)
 				(justify left)
 			)
-			(uuid "6b69e0ce-5ab6-45c0-bb23-a40402af3dea")
+			(uuid "78770be0-7f2e-4d3f-8bcb-8ef0f5029302")
 		)
 		(pin "XTAl_2" bidirectional
 			(at 152.4 104.14 180)
@@ -3449,7 +3449,7 @@
 				)
 				(justify left)
 			)
-			(uuid "b03b5792-8733-4808-a1ec-191768587e88")
+			(uuid "4154df8c-c57b-41b6-a269-c5c62886f7c1")
 		)
 		(instances
 			(project "Weather"

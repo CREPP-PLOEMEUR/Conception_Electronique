@@ -2823,7 +2823,7 @@
 		(uuid "4310a200-21b5-418b-964a-b5e7fbe716e5")
 	)
 	(label "RX"
-		(at 106.68 80.01 0)
+		(at 110.49 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2922,7 +2922,7 @@
 		(uuid "c6dd55ec-ec84-4af2-9f0a-2235b860fc2c")
 	)
 	(label "TX"
-		(at 106.68 77.47 0)
+		(at 110.49 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font

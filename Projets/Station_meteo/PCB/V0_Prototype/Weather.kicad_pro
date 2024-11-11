@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.11
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -242,7 +242,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "missing_input_pin|1181100|876300|b6cd650a-9b14-4315-816f-86d90aef28ec|00000000-0000-0000-0000-000000000000|||",
+      "missing_unit|1181100|876300|b6cd650a-9b14-4315-816f-86d90aef28ec|00000000-0000-0000-0000-000000000000|||",
+      "missing_unit|787400|609600|275ba5f8-5060-4a89-a34f-c5923f2c077b|00000000-0000-0000-0000-000000000000|||",
+      "missing_unit|787400|609600|5f3cb607-d81f-482c-920f-3332b684e150|00000000-0000-0000-0000-000000000000|||"
+    ],
     "meta": {
       "version": 0
     },
@@ -673,7 +678,7 @@
       "GNSS"
     ],
     [
-      "04ccd3ac-5bfb-4453-bc10-2448180068cd",
+      "9a5e555c-2629-4572-bc9c-a0e6152fe511",
       "XTAL1"
     ],
     [

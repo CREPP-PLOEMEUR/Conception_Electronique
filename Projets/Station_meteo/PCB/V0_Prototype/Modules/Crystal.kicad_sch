@@ -532,10 +532,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "9d6f6257-196b-473b-9b24-1dc063abb711")
+			(uuid "661d2e31-f1ee-4ae3-af77-b3c458efaa09")
 		)
 		(pin "2"
-			(uuid "19869ae7-16ad-42a2-a2b5-e41e6873fb7a")
+			(uuid "6c231f4a-6997-44bb-8ec9-7e62c6956861")
 		)
 		(instances
 			(project "Weather"
@@ -599,10 +599,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "77296784-1317-4140-b4b4-6fdc9971bec0")
+			(uuid "80c073bb-afac-4968-9a1e-c92726e58d66")
 		)
 		(pin "2"
-			(uuid "740c3d58-b579-44a6-9f9f-f89984d6030b")
+			(uuid "77c74897-e22e-484a-a81a-29ff9ad6c9fd")
 		)
 		(instances
 			(project "Weather"
@@ -668,10 +668,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "1db6514f-f304-40cc-835c-4520cd5e01e7")
+			(uuid "338b7206-b4fe-43a9-a0b9-eacc9ac1db6a")
 		)
 		(pin "2"
-			(uuid "6ce64444-4bd5-45af-b2dd-01bb41424374")
+			(uuid "d263ca00-53bb-4050-81a0-d9dd43e099f4")
 		)
 		(instances
 			(project "Weather"

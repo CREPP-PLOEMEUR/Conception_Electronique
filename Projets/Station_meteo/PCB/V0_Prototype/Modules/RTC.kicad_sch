@@ -923,6 +923,10 @@
 		(uuid "39be5477-1e6e-4579-b414-8c24fa98b9e9")
 	)
 	(no_connect
+		(at 109.22 60.96)
+		(uuid "5bf31855-874c-4178-838b-ec4fd18b8bce")
+	)
+	(no_connect
 		(at 96.52 55.88)
 		(uuid "d324a0ee-c43a-4eb1-a8a6-7ce3f7d63092")
 	)
@@ -983,6 +987,16 @@
 			(type default)
 		)
 		(uuid "39cd6121-849a-449d-891a-86f696049989")
+	)
+	(wire
+		(pts
+			(xy 81.28 71.12) (xy 83.82 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3aaa999b-aa62-42af-a08f-4f225bbe33b3")
 	)
 	(wire
 		(pts
@@ -1189,6 +1203,17 @@
 			(justify left bottom)
 		)
 		(uuid "b7418ddd-7f12-4fbe-9d0a-4ab80daeb481")
+	)
+	(label "+3.3V"
+		(at 81.28 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bb6b42a5-d62b-486a-bc8e-fea8cea969e3")
 	)
 	(label "+3.3V"
 		(at 93.98 43.18 0)
