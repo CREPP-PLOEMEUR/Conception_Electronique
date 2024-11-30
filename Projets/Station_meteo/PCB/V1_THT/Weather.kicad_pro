@@ -245,8 +245,7 @@
     "erc_exclusions": [
       "missing_input_pin|1181100|876300|b6cd650a-9b14-4315-816f-86d90aef28ec|00000000-0000-0000-0000-000000000000|||",
       "missing_unit|1181100|876300|b6cd650a-9b14-4315-816f-86d90aef28ec|00000000-0000-0000-0000-000000000000|||",
-      "missing_unit|787400|609600|275ba5f8-5060-4a89-a34f-c5923f2c077b|00000000-0000-0000-0000-000000000000|||",
-      "missing_unit|787400|609600|5f3cb607-d81f-482c-920f-3332b684e150|00000000-0000-0000-0000-000000000000|||"
+      "missing_unit|787400|609600|275ba5f8-5060-4a89-a34f-c5923f2c077b|00000000-0000-0000-0000-000000000000|||"
     ],
     "meta": {
       "version": 0
@@ -644,62 +643,6 @@
     [
       "6df9e135-6b30-40c1-b1f1-f69b9f79101d",
       "MCU"
-    ],
-    [
-      "23ebc8b9-bb7e-4012-98fb-2b9a2dbefd7e",
-      "WIND"
-    ],
-    [
-      "a5da99d9-516b-4840-bbd1-fedad36cbbbf",
-      "RTC"
-    ],
-    [
-      "3fdb808c-b7d6-448b-be26-584f8a24ea4a",
-      "XTAL"
-    ],
-    [
-      "cfc6b73e-917c-413b-93d1-f646a07cd8e3",
-      "Reset"
-    ],
-    [
-      "62ffa15e-244d-427d-986d-b923f96040e5",
-      "Power_RF"
-    ],
-    [
-      "227f63a5-2f15-4037-8fc8-26de9d1f16ea",
-      "Power"
-    ],
-    [
-      "e8e4a864-d5d9-4854-8ef8-3f6ef20b19db",
-      "NRF24"
-    ],
-    [
-      "cec30e87-23bc-4652-8f00-6a65fa21d321",
-      "GNSS"
-    ],
-    [
-      "cbe10a3b-f52a-4690-a17b-70f01dbc8d4e",
-      "Temperature"
-    ],
-    [
-      "f0228972-90ea-4da6-b918-ead9c247762d",
-      "Programming"
-    ],
-    [
-      "ca16450b-3bf0-414c-83a2-71306aba19fe",
-      "User_Buttons"
-    ],
-    [
-      "39e9adaa-0125-4045-bf4e-110370e942be",
-      "Interfaces"
-    ],
-    [
-      "147845bd-a29e-4d39-8215-5d35bf9fa2c1",
-      "Power_GNSS"
-    ],
-    [
-      "c6507140-a872-4c34-9fd4-2248dd1359c8",
-      "Power_Sensors"
     ]
   ],
   "text_variables": {}
