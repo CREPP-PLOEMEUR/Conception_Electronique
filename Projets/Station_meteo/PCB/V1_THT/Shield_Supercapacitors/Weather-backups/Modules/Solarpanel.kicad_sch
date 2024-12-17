@@ -1,0 +1,13 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "264b6988-fcaa-4195-a28f-a6503166dda9")
+	(paper "A5")
+	(title_block
+		(title "RTC")
+		(date "2024-04-17")
+		(rev "1.0")
+	)
+	(lib_symbols)
+)

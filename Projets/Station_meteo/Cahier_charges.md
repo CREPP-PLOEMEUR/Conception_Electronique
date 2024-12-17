@@ -3,44 +3,31 @@
 
 
 - Kit de capteurs sur Internet 
-    - Température     (BME)
+    - Température     (BME)  - e
     - pression
     - Humidité
     - Vitesse du vent
     - Direction du vent (Girouette de Robin)
     - Pluviométrie (volume)
-    - Ensoleillement
+    - Ensoleillement - 
     - Position GPS
 - (Détecteur de particule fine (Co2))
 
+- Type de connecteurs capteurs : bornier 5.08
 
-
+- Intégration de l'antenne du NRF24 (support mécanique à prévoir si module avec ampli)
+- doubler eventuellement les cellules lithium
 
 
 # Alimentation
 
-- Filaire ou autonome (les 2)
-
 -> Autonome : 
-    -solaire    -> GEstion energie
-    - batterie  -> GEstion energie
-
-- POE
-
+    - supercondensateurs -> GEstion energie
+    - batterie lithium  -> GEstion energie
 
 # Fonctions
 
-- Envoi de données par la station -> traitement des données ailleurs -> solution
-OU
-- Traitement sur la station, affichage géré par la station (Serveur Web)
-
-- Courbe de pression et des grandeurs physiques
-- Logs à distance (Wifi...)
-- Application WEB, API
-- Site à faire
-- écran déporté
-
-
+- Envoi de données par la station -> traitement des données ailleurs 
 
  
 Ressources et répartion
@@ -69,3 +56,4 @@ olivier
 
 
 Faire un point tous les 15 jours à la louche
+
