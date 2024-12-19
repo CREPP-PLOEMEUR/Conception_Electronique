@@ -3469,7 +3469,7 @@
 			(uuid "2de72e52-7d25-4df5-b578-4a0b33bf788c")
 		)
 		(instances
-			(project "Lithium"
+			(project "Shield_Lithium"
 				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/6df9e135-6b30-40c1-b1f1-f69b9f79101d"
 					(reference "J3")
 					(unit 1)
@@ -3568,7 +3568,7 @@
 			(uuid "58c1a0da-838a-4520-8658-a2103ddda04c")
 		)
 		(instances
-			(project "Lithium"
+			(project "Shield_Lithium"
 				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/6df9e135-6b30-40c1-b1f1-f69b9f79101d"
 					(reference "J1")
 					(unit 1)
@@ -3721,7 +3721,7 @@
 			(uuid "9fbded58-2a8f-4f37-ada7-e94bb1b34047")
 		)
 		(instances
-			(project "Lithium"
+			(project "Shield_Lithium"
 				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/6df9e135-6b30-40c1-b1f1-f69b9f79101d"
 					(reference "U1")
 					(unit 1)
@@ -3814,7 +3814,7 @@
 			(uuid "d6f7524a-b152-442d-811e-4489dc7f2e0a")
 		)
 		(instances
-			(project "Lithium"
+			(project "Shield_Lithium"
 				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/6df9e135-6b30-40c1-b1f1-f69b9f79101d"
 					(reference "J2")
 					(unit 1)
@@ -3889,7 +3889,7 @@
 			(uuid "1c2e8ac1-2561-465b-b066-c8d62b14545c")
 		)
 		(instances
-			(project "Lithium"
+			(project "Shield_Lithium"
 				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/6df9e135-6b30-40c1-b1f1-f69b9f79101d"
 					(reference "C1")
 					(unit 1)
@@ -3994,7 +3994,7 @@
 			(uuid "532ef663-b4bd-46cd-816f-b3f4026ff627")
 		)
 		(instances
-			(project "Lithium"
+			(project "Shield_Lithium"
 				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/6df9e135-6b30-40c1-b1f1-f69b9f79101d"
 					(reference "J4")
 					(unit 1)

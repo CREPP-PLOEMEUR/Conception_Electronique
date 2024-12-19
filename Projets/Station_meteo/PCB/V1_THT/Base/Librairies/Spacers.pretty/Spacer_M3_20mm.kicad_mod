@@ -1,0 +1,98 @@
+(footprint "Spacer_M3_20mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d922842e-a60d-4e21-9148-3e9f97af9ecf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Spacer_M3_20mm"
+		(at 0 -3.4544 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b8bbac86-33e4-4cc8-a50f-fa0244072337")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d01d56b5-0311-4044-b375-6654f97834de")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a4d9e4b1-05a4-4f60-9a21-657b264d054b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f3ec2e9-c65a-496a-a2f9-31ccb9782185")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "151be80f-038f-4d65-b861-a30321031ab5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" smd circle
+		(at 0 0.0508)
+		(size 3.4 3.4)
+		(layers "F.Paste")
+		(uuid "94d6c3e8-95e2-48d6-bc63-a826e7952d7c")
+	)
+	(model "/home/nico/Documents/Electronique/Kicad/Libraries_3D_Footprints/Spacers/M3_M_TO_F_20MM_STANDOFF.STEP"
+		(offset
+			(xyz 0 0 10)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 180 0 0)
+		)
+	)
+)

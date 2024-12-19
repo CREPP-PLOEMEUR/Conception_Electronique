@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Spacers")(type "KiCad")(uri "${KIPRJMOD}/Librairies/Spacers.kicad_sym")(options "")(descr ""))
+)

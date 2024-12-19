@@ -28,6 +28,7 @@
 # Fonctions
 
 - Envoi de données par la station -> traitement des données ailleurs 
+- Connecteur d'alimentation de debug
 
  
 Ressources et répartion
