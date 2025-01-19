@@ -4,7 +4,7 @@ Le répertoire avec les sources de l'atelier Conception Electronique
 
 ## Installation de Kicad
 
-La version de Kicad sera la version 8.X : src
+La version de Kicad sera la version 8.X : 
 
 ## Projets 2024-2025
 

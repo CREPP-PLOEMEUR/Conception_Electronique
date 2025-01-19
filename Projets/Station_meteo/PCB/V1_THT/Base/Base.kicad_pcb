@@ -4799,6 +4799,7 @@
 			(uuid "551763d1-670f-4149-84a3-b4dc0cbb5f14")
 		)
 		(model "/home/nico/Documents/CREPP/Conception_Electronique/Projets/Station_meteo/PCB/V1_THT/Shield_Lithium/Tracker.step"
+			(hide yes)
 			(offset
 				(xyz -120 50 21.5)
 			)
