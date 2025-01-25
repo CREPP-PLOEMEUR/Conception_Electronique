@@ -11,8 +11,16 @@
     - Vitesse du vent
     - Direction du vent 
     - Pluviométrie (volume)
-    - Position GPS
-    - RTC
+    - Position GPS - NEO-M6
+    - RTC - DS3231
+
+
+
+Liste du matériel : 
+
+- Borniers 5.08mm
+- Microcntrolleur ATMEGA328-PU
+- Transistor FDS4435BZ
 
 Options :  - Ensoleillement (GUVA-S12SD)
            - (Détecteur de particule fine (Co2))
@@ -53,13 +61,7 @@ Max : 95 mm/h de précipitation
 - Connecteur d'alimentation de debug : 
     - Shield avec OLED, USB et LED
 
- 
-Ressources et répartion
-- Guy
-- Patrick Z
--Nathalie
-Gilles
-olivier
+
 
 
 

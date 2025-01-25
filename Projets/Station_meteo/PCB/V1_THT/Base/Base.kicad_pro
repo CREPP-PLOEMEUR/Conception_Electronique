@@ -643,16 +643,32 @@
       "MCU"
     ],
     [
+      "a5c65fee-c30f-43d3-8fce-13d00ed1041d",
+      "Power_Handler_Anemo"
+    ],
+    [
       "0d8cecce-0187-4531-a2c2-f9b0d5927047",
       "RTC"
     ],
     [
       "cc471aaa-bd22-40bf-985c-f397c4cb895a",
-      "Anemometer1"
+      "Anemometer"
+    ],
+    [
+      "b9b4d04a-b087-4d8c-8b7c-938f93baaf3f",
+      "NRF24"
     ],
     [
       "d885458e-7b65-4bac-a9ac-9ebb78058802",
       "Programming"
+    ],
+    [
+      "f45ab4cc-f222-41d3-b980-a43e09b330cb",
+      "Reset"
+    ],
+    [
+      "b189c293-6c32-4865-840c-f316708689bc",
+      "Power_Handler_RTC"
     ]
   ],
   "text_variables": {}

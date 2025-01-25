@@ -3,291 +3,13 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "ac74f31d-2a4e-424e-9965-5be817f61658")
-	(paper "A4")
+	(paper "A5")
 	(title_block
 		(title "RF Transmitter")
 		(date "2024-11-03")
 		(rev "1.0")
 	)
 	(lib_symbols
-		(symbol "Device:L"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at -1.27 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "L"
-				(at 1.905 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Inductor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "L_0_1"
-				(arc
-					(start 0 -2.54)
-					(mid 0.6323 -1.905)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 0.635)
-					(end 0 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.27)
-					(mid 0.6323 1.905)
-					(end 0 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:R"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "RF:NRF24L01_Breakout"
 			(pin_names
 				(offset 1.016)
@@ -581,18 +303,8 @@
 		)
 	)
 	(no_connect
-		(at 118.11 93.98)
+		(at 95.25 76.2)
 		(uuid "9dc295d5-c8cb-42db-8d59-ca31b7357340")
-	)
-	(wire
-		(pts
-			(xy 115.57 81.28) (xy 118.11 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12693714-9e22-4202-bbd1-43e6a8f03a3f")
 	)
 	(wire
 		(pts
@@ -616,7 +328,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 101.6) (xy 130.81 104.14)
+			(xy 107.95 83.82) (xy 107.95 86.36)
 		)
 		(stroke
 			(width 0)
@@ -626,37 +338,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 36.83) (xy 82.55 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73019f29-2a33-4e14-a46a-a3f4a5316a4a")
-	)
-	(wire
-		(pts
-			(xy 115.57 83.82) (xy 118.11 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "736ea545-b5ce-47fd-82b5-13e1774f84dd")
-	)
-	(wire
-		(pts
-			(xy 115.57 86.36) (xy 118.11 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8350999a-d2bc-42e6-9a0c-c819a34b490d")
-	)
-	(wire
-		(pts
-			(xy 106.68 81.28) (xy 107.95 81.28)
+			(xy 91.44 63.5) (xy 95.25 63.5)
 		)
 		(stroke
 			(width 0)
@@ -666,7 +348,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 36.83) (xy 45.72 36.83)
+			(xy 44.45 36.83) (xy 82.55 36.83)
 		)
 		(stroke
 			(width 0)
@@ -676,7 +358,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 91.44) (xy 107.95 91.44)
+			(xy 91.44 73.66) (xy 95.25 73.66)
 		)
 		(stroke
 			(width 0)
@@ -686,7 +368,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 83.82) (xy 107.95 83.82)
+			(xy 91.44 66.04) (xy 95.25 66.04)
 		)
 		(stroke
 			(width 0)
@@ -696,7 +378,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 86.36) (xy 107.95 86.36)
+			(xy 91.44 68.58) (xy 95.25 68.58)
 		)
 		(stroke
 			(width 0)
@@ -706,7 +388,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 78.74) (xy 107.95 78.74)
+			(xy 91.44 60.96) (xy 95.25 60.96)
 		)
 		(stroke
 			(width 0)
@@ -716,17 +398,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 91.44) (xy 118.11 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f61095e5-2505-4dc1-b346-54c79d72c006")
-	)
-	(wire
-		(pts
-			(xy 130.81 69.85) (xy 130.81 71.12)
+			(xy 107.95 52.07) (xy 107.95 53.34)
 		)
 		(stroke
 			(width 0)
@@ -734,19 +406,8 @@
 		)
 		(uuid "f8cda40b-eb72-4b84-ad23-99b73145f862")
 	)
-	(wire
-		(pts
-			(xy 115.57 78.74) (xy 118.11 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fea5c4fa-86b8-4021-8184-e89a6eca60c8")
-	)
 	(label "+3.3V"
 		(at 82.55 36.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -756,8 +417,7 @@
 		(uuid "1d8d2628-bcc8-4dcc-89fd-1cfb59dc4521")
 	)
 	(label "+3.3V"
-		(at 130.81 69.85 0)
-		(fields_autoplaced yes)
+		(at 107.95 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -767,8 +427,7 @@
 		(uuid "38ba3f07-ebef-49ed-b7f3-220be017b635")
 	)
 	(label "GND"
-		(at 130.81 104.14 0)
-		(fields_autoplaced yes)
+		(at 107.95 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -779,7 +438,6 @@
 	)
 	(label "GND"
 		(at 53.34 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -791,7 +449,6 @@
 	(hierarchical_label "+3.3V"
 		(shape input)
 		(at 44.45 36.83 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -802,8 +459,7 @@
 	)
 	(hierarchical_label "MOSI"
 		(shape input)
-		(at 106.68 78.74 180)
-		(fields_autoplaced yes)
+		(at 91.44 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -815,7 +471,6 @@
 	(hierarchical_label "GND_RF"
 		(shape passive)
 		(at 50.8 64.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -826,8 +481,7 @@
 	)
 	(hierarchical_label "SCK"
 		(shape input)
-		(at 106.68 83.82 180)
-		(fields_autoplaced yes)
+		(at 91.44 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -838,8 +492,7 @@
 	)
 	(hierarchical_label "MISO"
 		(shape output)
-		(at 106.68 81.28 180)
-		(fields_autoplaced yes)
+		(at 91.44 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -850,8 +503,7 @@
 	)
 	(hierarchical_label "CE"
 		(shape input)
-		(at 106.68 91.44 180)
-		(fields_autoplaced yes)
+		(at 91.44 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -862,8 +514,7 @@
 	)
 	(hierarchical_label "CSN"
 		(shape input)
-		(at 106.68 86.36 180)
-		(fields_autoplaced yes)
+		(at 91.44 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -873,412 +524,8 @@
 		(uuid "d6c32e90-9870-4ed4-aff1-9095868c7ce8")
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 111.76 81.28 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "289d3fa2-9de5-409a-827d-c20079b1b086")
-		(property "Reference" "R22"
-			(at 112.522 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 110.236 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 111.76 83.058 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.76 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 111.76 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d59ab820-79bf-402e-ae17-8e4f9200ae73")
-		)
-		(pin "2"
-			(uuid "b2b7ad60-c337-45d7-bdd9-adf16f01236f")
-		)
-		(instances
-			(project "Weather"
-				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/e8e4a864-d5d9-4854-8ef8-3f6ef20b19db"
-					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 111.76 83.82 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "38902619-436b-4537-859f-5f59cb4c4b65")
-		(property "Reference" "R23"
-			(at 112.522 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 110.236 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 111.76 85.598 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.76 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 111.76 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "616653aa-3760-4616-86a3-1163380d117d")
-		)
-		(pin "2"
-			(uuid "90168196-42b3-4da7-8f1b-945286b84600")
-		)
-		(instances
-			(project "Weather"
-				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/e8e4a864-d5d9-4854-8ef8-3f6ef20b19db"
-					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 111.76 78.74 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "44b1d153-b1e5-4259-9192-6262bd016c68")
-		(property "Reference" "R21"
-			(at 112.522 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 110.236 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 111.76 80.518 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.76 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 111.76 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ad33a455-6ee9-4d43-8544-bf62411fc04d")
-		)
-		(pin "2"
-			(uuid "db0bca17-efda-41c6-bd5d-e2c36a145da8")
-		)
-		(instances
-			(project "Weather"
-				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/e8e4a864-d5d9-4854-8ef8-3f6ef20b19db"
-					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 111.76 86.36 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "53eed5b2-308b-4405-a6bd-5571295fc368")
-		(property "Reference" "R24"
-			(at 112.522 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 110.236 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 111.76 88.138 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.76 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 111.76 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4584bed6-f6f6-407b-a0b4-4dfffcb707ee")
-		)
-		(pin "2"
-			(uuid "35164fa3-84fb-4655-b54f-19dcf5b4170f")
-		)
-		(instances
-			(project "Weather"
-				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/e8e4a864-d5d9-4854-8ef8-3f6ef20b19db"
-					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 49.53 36.83 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bb4960d8-20ab-4963-a875-fdcbc6cba5e1")
-		(property "Reference" "L6"
-			(at 46.482 34.798 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "MPZ1608S101ATAH0"
-			(at 49.53 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 49.53 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 49.53 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6c6cf1c0-fe42-43d3-9dcf-89e8eecb4771")
-		)
-		(pin "1"
-			(uuid "46a57ebb-43c5-4f5e-a12a-6bd39ca6d40d")
-		)
-		(instances
-			(project "Weather"
-				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/e8e4a864-d5d9-4854-8ef8-3f6ef20b19db"
-					(reference "L6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 111.76 91.44 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c4136c5f-2514-48d4-ad57-bbb3bd33177e")
-		(property "Reference" "R25"
-			(at 112.522 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 110.236 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 111.76 93.218 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.76 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 111.76 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e0e4355f-5529-43d2-add2-6634012a045a")
-		)
-		(pin "2"
-			(uuid "aad6ded8-5a5e-49a1-94b9-f76b2ff9ec02")
-		)
-		(instances
-			(project "Weather"
-				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/e8e4a864-d5d9-4854-8ef8-3f6ef20b19db"
-					(reference "R25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "RF:NRF24L01_Breakout")
-		(at 130.81 86.36 0)
+		(at 107.95 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1287,7 +534,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb6b0e57-2fda-4ef8-94bb-0df9865f9104")
 		(property "Reference" "U7"
-			(at 140.97 85.0899 0)
+			(at 118.11 67.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1296,7 +543,7 @@
 			)
 		)
 		(property "Value" "NRF24L01_Breakout"
-			(at 140.97 87.6299 0)
+			(at 118.11 69.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1305,7 +552,7 @@
 			)
 		)
 		(property "Footprint" "RF_Module:nRF24L01_Breakout"
-			(at 134.62 71.12 0)
+			(at 111.76 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1316,7 +563,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.nordicsemi.com/eng/content/download/2730/34105/file/nRF24L01_Product_Specification_v2_0.pdf"
-			(at 130.81 88.9 0)
+			(at 107.95 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1325,7 +572,7 @@
 			)
 		)
 		(property "Description" "Ultra low power 2.4GHz RF Transceiver, Carrier PCB"
-			(at 130.81 86.36 0)
+			(at 107.95 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1359,7 +606,7 @@
 		)
 		(instances
 			(project "Weather"
-				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/e8e4a864-d5d9-4854-8ef8-3f6ef20b19db"
+				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/b9b4d04a-b087-4d8c-8b7c-938f93baaf3f"
 					(reference "U7")
 					(unit 1)
 				)

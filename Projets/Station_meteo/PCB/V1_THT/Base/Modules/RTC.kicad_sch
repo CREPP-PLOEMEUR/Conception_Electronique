@@ -675,6 +675,32 @@
 			)
 		)
 	)
+	(junction
+		(at 60.96 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52a3e9ba-ba63-4fa6-a236-de97bd1b51bf")
+	)
+	(junction
+		(at 71.12 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91435f2c-a4e9-4ed7-a3fb-76b0b03a34c5")
+	)
+	(no_connect
+		(at 107.95 63.5)
+		(uuid "49a63029-bb31-43db-822e-e70c5c853a9c")
+	)
+	(wire
+		(pts
+			(xy 55.88 66.04) (xy 60.96 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e82811c-0971-40c9-a79e-906527f050af")
+	)
 	(wire
 		(pts
 			(xy 60.96 48.26) (xy 60.96 50.8)
@@ -687,7 +713,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 50.8) (xy 128.27 50.8)
+			(xy 107.95 71.12) (xy 114.3 71.12)
 		)
 		(stroke
 			(width 0)
@@ -747,6 +773,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 78.74) (xy 95.25 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93f3e398-03fd-446d-8e41-65845a356b0f")
+	)
+	(wire
+		(pts
 			(xy 95.25 53.34) (xy 95.25 58.42)
 		)
 		(stroke
@@ -764,6 +800,16 @@
 			(type default)
 		)
 		(uuid "af4a5f81-1a79-4703-b3a1-a6dd1031a235")
+	)
+	(wire
+		(pts
+			(xy 55.88 63.5) (xy 71.12 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3d8c955-0206-4e07-bdbb-7e06b9969239")
 	)
 	(wire
 		(pts
@@ -857,7 +903,7 @@
 	)
 	(global_label "INT"
 		(shape output)
-		(at 128.27 50.8 0)
+		(at 114.3 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -867,7 +913,7 @@
 		)
 		(uuid "eb480b09-8ff8-4250-8893-1ae33370ce4b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.1581 50.8 0)
+			(at 120.1881 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -876,6 +922,17 @@
 				(hide yes)
 			)
 		)
+	)
+	(hierarchical_label "SDA"
+		(shape bidirectional)
+		(at 55.88 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "525ed2e6-1358-47fb-8fc8-b14edea8dde8")
 	)
 	(hierarchical_label "VCC"
 		(shape input)
@@ -887,6 +944,28 @@
 			(justify right)
 		)
 		(uuid "77e7eaf3-38b3-46be-8dfe-0e1878a3286b")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 95.25 83.82 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f5385ce9-6fce-450d-b415-4d656ae3e0a2")
+	)
+	(hierarchical_label "SCL"
+		(shape bidirectional)
+		(at 55.88 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f5ae71a6-579d-4bda-a6d1-20e160058fae")
 	)
 	(symbol
 		(lib_id "CREPP_Batteries_holders:Battery_Cell")

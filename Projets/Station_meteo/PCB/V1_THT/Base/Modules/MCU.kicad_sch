@@ -1259,6 +1259,174 @@
 				)
 			)
 		)
+		(symbol "Device:Crystal"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Crystal"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Two pin crystal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "quartz ceramic resonator oscillator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Crystal*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Crystal_0_1"
+				(rectangle
+					(start -1.143 2.54)
+					(end 1.143 -2.54)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.27) (xy -1.905 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -1.27) (xy 1.905 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Crystal_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "MCU_Microchip_ATmega:ATmega328P-P"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1981,7 +2149,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 46.99) (xy 110.49 46.99)
+			(xy 78.74 46.99) (xy 143.51 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1998,6 +2166,16 @@
 			(type default)
 		)
 		(uuid "11a35102-071f-4b4d-93c2-5088efd1e6e6")
+	)
+	(wire
+		(pts
+			(xy 137.16 57.15) (xy 143.51 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13df905c-19a8-4a52-bbb4-80d65f91f961")
 	)
 	(wire
 		(pts
@@ -2101,7 +2279,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 49.53) (xy 110.49 49.53)
+			(xy 78.74 49.53) (xy 137.16 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2118,6 +2296,16 @@
 			(type default)
 		)
 		(uuid "36ee4868-c16f-4a42-87ae-286cd2761d13")
+	)
+	(wire
+		(pts
+			(xy 143.51 57.15) (xy 143.51 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38241938-2510-4003-9095-95d616ca0add")
 	)
 	(wire
 		(pts
@@ -2238,6 +2426,16 @@
 			(type default)
 		)
 		(uuid "66290a5f-6db0-453a-8a63-144a4d875d92")
+	)
+	(wire
+		(pts
+			(xy 143.51 46.99) (xy 143.51 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68e9977d-6d9f-41ee-aff4-2d94358f797a")
 	)
 	(wire
 		(pts
@@ -2881,6 +3079,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 49.53) (xy 137.16 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6ba073d-f037-457e-882b-529fb33413db")
+	)
+	(wire
+		(pts
 			(xy 106.68 34.29) (xy 110.49 34.29)
 		)
 		(stroke
@@ -3161,17 +3369,6 @@
 		)
 		(uuid "79fb9217-61a1-4e81-8d81-13b127dc59b8")
 	)
-	(hierarchical_label "XTAL1/PB6"
-		(shape bidirectional)
-		(at 110.49 46.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7cc94e63-83f9-4fc5-b861-536cfc4a852d")
-	)
 	(hierarchical_label "PB2-D10~"
 		(shape bidirectional)
 		(at 110.49 36.83 0)
@@ -3281,17 +3478,6 @@
 			(justify left)
 		)
 		(uuid "df7a9ac3-fbf0-4bf5-84f0-fac6e688c968")
-	)
-	(hierarchical_label "XTAL2/PB7"
-		(shape bidirectional)
-		(at 110.49 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e2bb011e-cd40-42c2-8e82-e6c77ce922d3")
 	)
 	(hierarchical_label "PB3-D11-(SPI_MISO)~"
 		(shape bidirectional)
@@ -3431,6 +3617,76 @@
 			(project "Base"
 				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/6df9e135-6b30-40c1-b1f1-f69b9f79101d"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Crystal")
+		(at 143.51 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "521767e3-04c7-4aa8-b2e6-b49a482034df")
+		(property "Reference" "Y1"
+			(at 147.32 50.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Crystal"
+			(at 147.32 53.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Crystal:Crystal_HC49-4H_Vertical"
+			(at 143.51 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Two pin crystal"
+			(at 143.51 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19339071-0632-41b9-975c-6e1d20b2c34f")
+		)
+		(pin "2"
+			(uuid "e95f794c-9f89-480b-a60d-dc37f890a56b")
+		)
+		(instances
+			(project "Base"
+				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/6df9e135-6b30-40c1-b1f1-f69b9f79101d"
+					(reference "Y1")
 					(unit 1)
 				)
 			)
