@@ -1,0 +1,380 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "7ba29b4e-1169-412a-b788-90a75d8afade")
+	(paper "A4")
+	(lib_symbols
+		(symbol "CREPP_Resistors:Resistor_THT_250mW (standard)"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10k"
+				(at 9.906 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Standard resistor - 1/4W - THT version"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor (standard) [CREPP]"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Resistor_THT_250mW (standard)_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Resistor_THT_250mW (standard)_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 67.31 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b09cda8-31e3-4e5e-b84b-ffec425a090e")
+	)
+	(wire
+		(pts
+			(xy 67.31 64.77) (xy 67.31 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16dfa61e-8181-402c-ac09-5f3112d6f070")
+	)
+	(wire
+		(pts
+			(xy 67.31 85.09) (xy 67.31 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c2661a9-bfd9-4d52-9f8b-594120d3b19a")
+	)
+	(wire
+		(pts
+			(xy 67.31 76.2) (xy 67.31 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "513a79d9-8097-445f-8194-f66e47bc1d61")
+	)
+	(wire
+		(pts
+			(xy 67.31 76.2) (xy 72.39 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dc3b41d-3ea3-4ac3-8366-2fbbbccb5e77")
+	)
+	(wire
+		(pts
+			(xy 67.31 74.93) (xy 67.31 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca8f9bc7-b57d-4583-97ca-942666877cc8")
+	)
+	(hierarchical_label "OUT"
+		(shape output)
+		(at 72.39 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0667f5c7-cf17-47a9-b74d-e7d9d24c1cda")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 67.31 86.36 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "52d330be-c492-4295-b7f2-bf49031e1149")
+	)
+	(hierarchical_label "IN"
+		(shape input)
+		(at 67.31 64.77 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d25a520a-f1c4-4637-bc87-5b5634f671a0")
+	)
+	(symbol
+		(lib_id "CREPP_Resistors:Resistor_THT_250mW (standard)")
+		(at 67.31 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "056c1533-d85d-457f-9e8f-10e3ac3313f4")
+		(property "Reference" "R20"
+			(at 69.85 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 71.374 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 65.532 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Standard resistor - 1/4W - THT version"
+			(at 67.31 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb95396b-5ec2-4222-96e5-032da9bf28aa")
+		)
+		(pin "2"
+			(uuid "7d6fd505-3056-45ee-9fba-2b2ff372c483")
+		)
+		(instances
+			(project "Base"
+				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/b9b4d04a-b087-4d8c-8b7c-938f93baaf3f/430b5e92-7437-458a-b157-cc0f8bde9e6f"
+					(reference "R20")
+					(unit 1)
+				)
+				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/b9b4d04a-b087-4d8c-8b7c-938f93baaf3f/97f8f5fe-e97a-4c92-90fd-af82941c05c2"
+					(reference "R26")
+					(unit 1)
+				)
+				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/b9b4d04a-b087-4d8c-8b7c-938f93baaf3f/bcdc91e3-c5d4-4d2e-8fc4-997f66734320"
+					(reference "R22")
+					(unit 1)
+				)
+				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/b9b4d04a-b087-4d8c-8b7c-938f93baaf3f/db17640b-1943-4369-afc9-2d05e2105966"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CREPP_Resistors:Resistor_THT_250mW (standard)")
+		(at 67.31 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c50ca57-0dd4-4246-9a36-d927b9924f4e")
+		(property "Reference" "R21"
+			(at 69.85 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 71.374 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 65.532 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Standard resistor - 1/4W - THT version"
+			(at 67.31 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eee32af8-4b7f-4a80-9bae-c323ff9c6d81")
+		)
+		(pin "2"
+			(uuid "bbc947dd-7fcc-4c01-bfdb-792fb969b43d")
+		)
+		(instances
+			(project "Base"
+				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/b9b4d04a-b087-4d8c-8b7c-938f93baaf3f/430b5e92-7437-458a-b157-cc0f8bde9e6f"
+					(reference "R21")
+					(unit 1)
+				)
+				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/b9b4d04a-b087-4d8c-8b7c-938f93baaf3f/97f8f5fe-e97a-4c92-90fd-af82941c05c2"
+					(reference "R27")
+					(unit 1)
+				)
+				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/b9b4d04a-b087-4d8c-8b7c-938f93baaf3f/bcdc91e3-c5d4-4d2e-8fc4-997f66734320"
+					(reference "R23")
+					(unit 1)
+				)
+				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/b9b4d04a-b087-4d8c-8b7c-938f93baaf3f/db17640b-1943-4369-afc9-2d05e2105966"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

@@ -1813,31 +1813,31 @@
 		(members "RX" "TX")
 	)
 	(junction
-		(at 19.05 44.45)
+		(at 48.26 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "04da7def-edc3-4267-89a4-eae49f229efc")
 	)
 	(junction
-		(at 19.05 41.91)
+		(at 48.26 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "48cf2fb9-a55c-4ee4-a76d-41cd3bc9c538")
 	)
 	(no_connect
-		(at 15.24 31.75)
+		(at 44.45 46.99)
 		(uuid "0f685c35-162c-44a4-a532-49422120a862")
 	)
 	(no_connect
-		(at 15.24 77.47)
+		(at 44.45 92.71)
 		(uuid "136c9b36-0a4b-48a5-95b8-57a545bf5c95")
 	)
 	(no_connect
-		(at 15.24 54.61)
+		(at 44.45 69.85)
 		(uuid "1b179ced-273d-40d6-81f8-263964bc2782")
 	)
 	(no_connect
-		(at 15.24 62.23)
+		(at 44.45 77.47)
 		(uuid "35413f15-e344-491b-b827-a406372bfd35")
 	)
 	(no_connect
@@ -1845,7 +1845,7 @@
 		(uuid "39a81054-1992-45b9-9f34-e2ee32afc49e")
 	)
 	(no_connect
-		(at -7.62 92.71)
+		(at 21.59 107.95)
 		(uuid "4baab2fb-ce29-4ae0-a47a-0580d5ffb28a")
 	)
 	(no_connect
@@ -1853,7 +1853,7 @@
 		(uuid "5194e5d2-7386-4a8d-bda1-7d009cc8af49")
 	)
 	(no_connect
-		(at 15.24 69.85)
+		(at 44.45 85.09)
 		(uuid "52ad2b67-2c45-41fc-9353-e48cb0ac9b4b")
 	)
 	(no_connect
@@ -1861,19 +1861,19 @@
 		(uuid "587407f9-19f0-4672-88e4-c64762fc7e80")
 	)
 	(no_connect
-		(at 15.24 85.09)
+		(at 44.45 100.33)
 		(uuid "76d99a12-6ed2-47a2-9cdb-150f33412639")
 	)
 	(no_connect
-		(at 15.24 52.07)
+		(at 44.45 67.31)
 		(uuid "7f0446b1-0cc3-4aa1-b38a-95a8ffc667e1")
 	)
 	(no_connect
-		(at 15.24 67.31)
+		(at 44.45 82.55)
 		(uuid "8358f57d-425c-4a58-8ca1-552f4e7b8f58")
 	)
 	(no_connect
-		(at 15.24 82.55)
+		(at 44.45 97.79)
 		(uuid "8ee6beaa-e416-44e9-b710-bae88b048a5f")
 	)
 	(no_connect
@@ -1885,15 +1885,15 @@
 		(uuid "ac0b48c8-001f-497d-b6c8-a95991e387bf")
 	)
 	(no_connect
-		(at 15.24 74.93)
+		(at 44.45 90.17)
 		(uuid "b272b62a-9616-46e9-a3e5-87d24e2d6318")
 	)
 	(no_connect
-		(at 15.24 34.29)
+		(at 44.45 49.53)
 		(uuid "bc425e5e-5b10-46e0-a94d-7903f0be08b3")
 	)
 	(no_connect
-		(at 15.24 59.69)
+		(at 44.45 74.93)
 		(uuid "dbba9f41-a72f-4c97-aa5d-9d87d415fae9")
 	)
 	(no_connect
@@ -1980,7 +1980,7 @@
 	)
 	(wire
 		(pts
-			(xy 15.24 46.99) (xy 19.05 46.99)
+			(xy 44.45 62.23) (xy 48.26 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2040,7 +2040,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 44.45) (xy 19.05 46.99)
+			(xy 48.26 59.69) (xy 48.26 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2070,7 +2070,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 39.37) (xy 19.05 41.91)
+			(xy 48.26 54.61) (xy 48.26 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2100,7 +2100,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 41.91) (xy 21.59 41.91)
+			(xy 48.26 57.15) (xy 50.8 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2110,7 +2110,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 44.45) (xy 21.59 44.45)
+			(xy 48.26 59.69) (xy 50.8 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2130,7 +2130,7 @@
 	)
 	(wire
 		(pts
-			(xy 15.24 44.45) (xy 19.05 44.45)
+			(xy 44.45 59.69) (xy 48.26 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2160,7 +2160,7 @@
 	)
 	(wire
 		(pts
-			(xy 15.24 39.37) (xy 19.05 39.37)
+			(xy 44.45 54.61) (xy 48.26 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2190,7 +2190,7 @@
 	)
 	(wire
 		(pts
-			(xy 15.24 26.67) (xy 19.05 26.67)
+			(xy 44.45 41.91) (xy 48.26 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2200,7 +2200,7 @@
 	)
 	(wire
 		(pts
-			(xy 15.24 41.91) (xy 19.05 41.91)
+			(xy 44.45 57.15) (xy 48.26 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2210,7 +2210,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 86.36) (xy 22.86 88.9)
+			(xy 52.07 101.6) (xy 52.07 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2239,7 +2239,7 @@
 		(uuid "2b1e41df-fa7e-45c7-ad3c-d05179f31745")
 	)
 	(label "+5V"
-		(at 15.24 26.67 0)
+		(at 44.45 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2249,7 +2249,7 @@
 		(uuid "2e95f3f4-05b3-4272-9e19-425ad8effda8")
 	)
 	(label "GND"
-		(at 22.86 86.36 0)
+		(at 52.07 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2259,7 +2259,7 @@
 		(uuid "4959523d-e055-4655-b0a2-98e9cb71ad0b")
 	)
 	(label "D-"
-		(at 21.59 41.91 0)
+		(at 50.8 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2299,7 +2299,7 @@
 		(uuid "c31af6a3-9f64-4f3f-b745-4e52300ca5d8")
 	)
 	(label "GND"
-		(at 0 92.71 0)
+		(at 29.21 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2309,7 +2309,7 @@
 		(uuid "d8d4c715-b21b-41b6-99d7-58bce478eb0b")
 	)
 	(label "D+"
-		(at 21.59 44.45 0)
+		(at 50.8 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2340,7 +2340,7 @@
 	)
 	(hierarchical_label "+5V"
 		(shape output)
-		(at 19.05 26.67 0)
+		(at 48.26 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2373,7 +2373,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape passive)
-		(at 22.86 88.9 270)
+		(at 52.07 104.14 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2381,76 +2381,6 @@
 			(justify right)
 		)
 		(uuid "a9761cdb-99e8-49d3-8d29-8d25a546d02e")
-	)
-	(symbol
-		(lib_id "Device:Crystal")
-		(at 66.04 76.2 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0f1cc97b-954f-4f61-9347-7aac220dbd19")
-		(property "Reference" "Y2"
-			(at 69.85 74.9299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "12MHz"
-			(at 69.85 77.4699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Crystal:Crystal_SMD_HC49-SD"
-			(at 66.04 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 66.04 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Two pin crystal"
-			(at 66.04 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a47f541a-9fd7-4369-863b-93e6869ec9dd")
-		)
-		(pin "1"
-			(uuid "f5571ae0-cbb6-4c3a-b688-34e56856be45")
-		)
-		(instances
-			(project "Weather"
-				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/d885458e-7b65-4bac-a9ac-9ebb78058802"
-					(reference "Y2")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Bridged")
@@ -2849,8 +2779,78 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Crystal")
+		(at 66.04 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce355eef-328f-44ac-b58c-d7a2efde32f8")
+		(property "Reference" "Y2"
+			(at 69.85 74.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Crystal"
+			(at 69.85 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Crystal:Crystal_HC49-4H_Vertical"
+			(at 66.04 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Two pin crystal"
+			(at 66.04 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9df34319-8f3b-407b-a694-9f57fae3c13c")
+		)
+		(pin "2"
+			(uuid "1b38c719-9e44-4c95-8fa9-a4e0394845fc")
+		)
+		(instances
+			(project "Base"
+				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/d885458e-7b65-4bac-a9ac-9ebb78058802"
+					(reference "Y2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CREPP_Connectors_USB_C:USB_C_Receptacle")
-		(at 0 52.07 0)
+		(at 29.21 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2859,7 +2859,7 @@
 		(fields_autoplaced yes)
 		(uuid "f85e717c-e5a6-4253-9308-252cac657f8e")
 		(property "Reference" "J8"
-			(at 0 19.05 0)
+			(at 29.21 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2867,7 +2867,7 @@
 			)
 		)
 		(property "Value" "USB_C_Receptacle"
-			(at 0 21.59 0)
+			(at 29.21 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2875,7 +2875,7 @@
 			)
 		)
 		(property "Footprint" "CREPP_Connectors_USB:USB_C_Receptacle_GCT_USB4085"
-			(at 3.81 52.07 0)
+			(at 33.02 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2884,7 +2884,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 3.81 52.07 0)
+			(at 33.02 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2893,7 +2893,7 @@
 			)
 		)
 		(property "Description" "USB Full-Featured Type-C Receptacle connector"
-			(at 0 52.07 0)
+			(at 29.21 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)

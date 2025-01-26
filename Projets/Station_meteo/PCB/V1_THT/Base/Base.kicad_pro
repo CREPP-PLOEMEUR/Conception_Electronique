@@ -669,6 +669,46 @@
     [
       "b189c293-6c32-4865-840c-f316708689bc",
       "Power_Handler_RTC"
+    ],
+    [
+      "1f0d96b8-cbfb-49c4-b890-a0964110ae2c",
+      "Power"
+    ],
+    [
+      "a63dc76b-6380-494c-9d24-5850142aff19",
+      "Power_Handler_NRF24"
+    ],
+    [
+      "6abfbb7c-4a96-4b3c-bae8-1f7b8b6c7442",
+      "Power_Handler_GNSS"
+    ],
+    [
+      "0c209323-0c66-43b8-9e8a-ac76fcff0019",
+      "GNSS"
+    ],
+    [
+      "430b5e92-7437-458a-b157-cc0f8bde9e6f",
+      "Bridge1"
+    ],
+    [
+      "bcdc91e3-c5d4-4d2e-8fc4-997f66734320",
+      "Bridge"
+    ],
+    [
+      "db17640b-1943-4369-afc9-2d05e2105966",
+      "Bridge2"
+    ],
+    [
+      "97f8f5fe-e97a-4c92-90fd-af82941c05c2",
+      "Bridge3"
+    ],
+    [
+      "7a2fd6d5-58af-4f63-9d4c-4523140b2779",
+      "Temperature_Sun"
+    ],
+    [
+      "16c1cf0a-7f1e-4c3f-ad57-311ae10c4222",
+      "Power_Handler_Temperature_Sun"
     ]
   ],
   "text_variables": {}

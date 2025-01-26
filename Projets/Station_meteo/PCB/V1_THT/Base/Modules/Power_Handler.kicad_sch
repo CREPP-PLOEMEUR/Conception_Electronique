@@ -10,7 +10,7 @@
 		(rev "1.0")
 	)
 	(lib_symbols
-		(symbol "Device:R"
+		(symbol "CREPP_Resistors:Resistor_THT_250mW (standard)"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0)
@@ -26,15 +26,16 @@
 					)
 				)
 			)
-			(property "Value" "R"
-				(at 0 0 90)
+			(property "Value" "10k"
+				(at 9.906 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 				(at -1.778 0 90)
 				(effects
 					(font
@@ -52,7 +53,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor"
+			(property "Description" "Standard resistor - 1/4W - THT version"
 				(at 0 0 0)
 				(effects
 					(font
@@ -61,7 +62,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "R res resistor"
+			(property "ki_keywords" "R res resistor (standard) [CREPP]"
 				(at 0 0 0)
 				(effects
 					(font
@@ -79,7 +80,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_0_1"
+			(symbol "Resistor_THT_250mW (standard)_0_1"
 				(rectangle
 					(start -1.016 -2.54)
 					(end 1.016 2.54)
@@ -92,7 +93,7 @@
 					)
 				)
 			)
-			(symbol "R_1_1"
+			(symbol "Resistor_THT_250mW (standard)_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -131,7 +132,7 @@
 				)
 			)
 		)
-		(symbol "Transistor_FET:2N7002H"
+		(symbol "Transistor_FET:2N7000"
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -145,7 +146,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "2N7002H"
+			(property "Value" "2N7000"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -154,7 +155,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
 				(at 5.08 -1.905 0)
 				(effects
 					(font
@@ -165,7 +166,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.diodes.com/assets/Datasheets/2N7002H.pdf"
+			(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
 				(at 5.08 -3.81 0)
 				(effects
 					(font
@@ -175,7 +176,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "0.21A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(property "Description" "0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92"
 				(at 0 0 0)
 				(effects
 					(font
@@ -184,7 +185,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "N-Channel MOSFET"
+			(property "ki_keywords" "N-Channel MOSFET Logic-Level"
 				(at 0 0 0)
 				(effects
 					(font
@@ -193,7 +194,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT?23*"
+			(property "ki_fp_filters" "TO?92*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -202,7 +203,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "2N7002H_0_1"
+			(symbol "2N7000_0_1"
 				(polyline
 					(pts
 						(xy 0.254 0) (xy -2.54 0)
@@ -369,11 +370,11 @@
 					)
 				)
 			)
-			(symbol "2N7002H_1_1"
-				(pin input line
-					(at -5.08 0 0)
+			(symbol "2N7000_1_1"
+				(pin passive line
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "G"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -388,10 +389,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 2.54 -5.08 90)
+				(pin input line
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "S"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1069,109 +1070,34 @@
 		(uuid "727fde6c-e88c-495c-9c32-dcc5dec6cd32")
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7002H")
-		(at 102.87 58.42 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5edc66f6-48ec-4db2-804d-f570324b24c5")
-		(property "Reference" "Q4"
-			(at 102.87 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2N7002H"
-			(at 102.87 67.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92"
-			(at 104.775 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.diodes.com/assets/Datasheets/2N7002H.pdf"
-			(at 106.68 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.21A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 102.87 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f0a7c37c-509a-4c17-a170-4d3b10bc2037")
-		)
-		(pin "3"
-			(uuid "6beab3f2-f422-4a16-a5bf-2717e9265e9f")
-		)
-		(pin "2"
-			(uuid "bf699208-8e0e-4604-98c4-8057c73ae6db")
-		)
-		(instances
-			(project "Base"
-				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/a5c65fee-c30f-43d3-8fce-13d00ed1041d"
-					(reference "Q4")
-					(unit 1)
-				)
-				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/b189c293-6c32-4865-840c-f316708689bc"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
+		(lib_id "CREPP_Resistors:Resistor_THT_250mW (standard)")
 		(at 109.22 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "719ef9c9-2fed-4dba-9349-ca8a1c9c07a3")
-		(property "Reference" "R2"
-			(at 113.03 55.88 0)
+		(fields_autoplaced yes)
+		(uuid "22723046-d59d-4d48-aa13-49c820722cab")
+		(property "Reference" "R31"
+			(at 111.76 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "100k"
-			(at 113.03 53.34 0)
+		(property "Value" "10k"
+			(at 119.126 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 107.442 54.61 90)
 			(effects
 				(font
@@ -1189,7 +1115,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Standard resistor - 1/4W - THT version"
 			(at 109.22 54.61 0)
 			(effects
 				(font
@@ -1198,20 +1124,32 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "89167d1a-f77a-4e66-973e-7ed6d4e99b1e")
-		)
 		(pin "2"
-			(uuid "50913877-3b31-4f0b-b77a-326f20b054f5")
+			(uuid "dd8f35e1-e521-43d9-b916-43d6636d0e94")
+		)
+		(pin "1"
+			(uuid "da5da342-521a-471e-8236-3859f2605ce0")
 		)
 		(instances
 			(project "Base"
+				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/16c1cf0a-7f1e-4c3f-ad57-311ae10c4222"
+					(reference "R31")
+					(unit 1)
+				)
+				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/6abfbb7c-4a96-4b3c-bae8-1f7b8b6c7442"
+					(reference "R17")
+					(unit 1)
+				)
 				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/a5c65fee-c30f-43d3-8fce-13d00ed1041d"
-					(reference "R2")
+					(reference "R32")
+					(unit 1)
+				)
+				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/a63dc76b-6380-494c-9d24-5850142aff19"
+					(reference "R15")
 					(unit 1)
 				)
 				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/b189c293-6c32-4865-840c-f316708689bc"
-					(reference "R35")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -1228,7 +1166,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85f482cb-fa45-42da-ae48-d18e5c11a6ce")
-		(property "Reference" "Q1"
+		(property "Reference" "Q7"
 			(at 95.25 74.93 90)
 			(effects
 				(font
@@ -1281,7 +1219,7 @@
 			(uuid "deb6e89a-0208-4bb2-817f-4225d745bd38")
 		)
 		(pin "1"
-			(uuid "c719a547-11a4-48d9-a31a-124449e5b299")
+			(uuid "89f8d847-7614-4527-8bd1-fa5ec494d17d")
 		)
 		(pin "5"
 			(uuid "7e037fb5-bfe7-4e3f-a097-55752c636b1c")
@@ -1290,18 +1228,30 @@
 			(uuid "34252769-c52c-42d3-bb3b-77dc3ae99560")
 		)
 		(pin "8"
-			(uuid "9e649aad-0eeb-4d24-b21c-435078146433")
+			(uuid "0bbd1ab6-ffd4-4f37-bd32-5661a198f883")
 		)
 		(pin "7"
-			(uuid "24af6b7d-39a7-4328-ae7c-9adb3efd7efa")
+			(uuid "bc61edf9-0ad4-42f5-a3dd-a1ec18e6267b")
 		)
 		(pin "2"
-			(uuid "6ad45343-a795-43e5-a23d-de5fee6b98cd")
+			(uuid "a38fa6c0-fec9-47c3-87d4-70f30e5d609d")
 		)
 		(instances
 			(project "Base"
+				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/16c1cf0a-7f1e-4c3f-ad57-311ae10c4222"
+					(reference "Q7")
+					(unit 1)
+				)
+				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/6abfbb7c-4a96-4b3c-bae8-1f7b8b6c7442"
+					(reference "Q5")
+					(unit 1)
+				)
 				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/a5c65fee-c30f-43d3-8fce-13d00ed1041d"
 					(reference "Q1")
+					(unit 1)
+				)
+				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/a63dc76b-6380-494c-9d24-5850142aff19"
+					(reference "Q2")
 					(unit 1)
 				)
 				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/b189c293-6c32-4865-840c-f316708689bc"
@@ -1312,31 +1262,125 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Transistor_FET:2N7000")
+		(at 102.87 58.42 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "afac8b3f-3edb-4764-b668-22544021cea3")
+		(property "Reference" "Q8"
+			(at 102.87 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2N7000"
+			(at 102.87 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 104.775 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
+			(at 106.68 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92"
+			(at 102.87 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1bb1f665-0a7b-4684-986c-ad088fab9854")
+		)
+		(pin "2"
+			(uuid "e0016208-1798-41f4-89c9-af667f33d04a")
+		)
+		(pin "1"
+			(uuid "8e480df6-b41c-4742-8deb-5f425f20879e")
+		)
+		(instances
+			(project "Base"
+				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/16c1cf0a-7f1e-4c3f-ad57-311ae10c4222"
+					(reference "Q8")
+					(unit 1)
+				)
+				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/6abfbb7c-4a96-4b3c-bae8-1f7b8b6c7442"
+					(reference "Q6")
+					(unit 1)
+				)
+				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/a5c65fee-c30f-43d3-8fce-13d00ed1041d"
+					(reference "Q9")
+					(unit 1)
+				)
+				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/a63dc76b-6380-494c-9d24-5850142aff19"
+					(reference "Q4")
+					(unit 1)
+				)
+				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/b189c293-6c32-4865-840c-f316708689bc"
+					(reference "Q10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CREPP_Resistors:Resistor_THT_250mW (standard)")
 		(at 87.63 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a50fd0ca-6695-4a4e-b86c-b1e8fb2d8ed4")
-		(property "Reference" "R1"
-			(at 91.44 67.31 0)
+		(fields_autoplaced yes)
+		(uuid "bf29ee9b-86f9-4d21-91c8-3574508bb71a")
+		(property "Reference" "R30"
+			(at 90.17 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "10k"
-			(at 90.424 64.516 0)
+			(at 97.536 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 85.852 66.04 90)
 			(effects
 				(font
@@ -1354,7 +1398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Standard resistor - 1/4W - THT version"
 			(at 87.63 66.04 0)
 			(effects
 				(font
@@ -1363,20 +1407,32 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "88b439c3-4ab5-4548-819e-657dd130398b")
-		)
 		(pin "2"
-			(uuid "81a90841-6078-4d13-8828-368d0addd9a3")
+			(uuid "52dd4c5b-43cb-48f6-b375-77df5854f89a")
+		)
+		(pin "1"
+			(uuid "e2a8179b-40a3-4a81-bddb-6e00a9e3ecf1")
 		)
 		(instances
 			(project "Base"
+				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/16c1cf0a-7f1e-4c3f-ad57-311ae10c4222"
+					(reference "R30")
+					(unit 1)
+				)
+				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/6abfbb7c-4a96-4b3c-bae8-1f7b8b6c7442"
+					(reference "R16")
+					(unit 1)
+				)
 				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/a5c65fee-c30f-43d3-8fce-13d00ed1041d"
 					(reference "R1")
 					(unit 1)
 				)
+				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/a63dc76b-6380-494c-9d24-5850142aff19"
+					(reference "R14")
+					(unit 1)
+				)
 				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/b189c293-6c32-4865-840c-f316708689bc"
-					(reference "R34")
+					(reference "R2")
 					(unit 1)
 				)
 			)
