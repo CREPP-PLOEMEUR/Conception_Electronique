@@ -3734,12 +3734,79 @@
 		(uuid "fd685348-dfd0-4fe3-b70d-ac05149bc20c")
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 158.75 46.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "349ebe97-51e2-433b-93d4-9d56307775ae")
+		(property "Reference" "C3"
+			(at 157.48 43.434 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22pF - disc"
+			(at 157.226 51.308 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm"
+			(at 162.56 46.0248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 158.75 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1f8e4df7-83ca-4198-aac4-b9cad6d03436")
+		)
+		(pin "1"
+			(uuid "4d3ca00d-a48e-4919-8693-5c014fa04d3a")
+		)
+		(instances
+			(project "Base"
+				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/6df9e135-6b30-40c1-b1f1-f69b9f79101d"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_02x06_Odd_Even")
 		(at 101.6 59.69 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "4aeda3d7-046e-4829-83ec-1b6d5e361760")
@@ -3851,7 +3918,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Crystal"
+		(property "Value" "16 MHz HC49-4H"
 			(at 147.32 53.3399 90)
 			(effects
 				(font
@@ -3908,7 +3975,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "598ca3c1-d69a-4db6-8767-6b841ee3e63c")
@@ -4143,74 +4210,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 158.75 46.99 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "80bfab2c-c489-4ed2-ba69-0f2e4416a042")
-		(property "Reference" "C7"
-			(at 158.75 39.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22pF"
-			(at 158.75 41.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 162.56 46.0248 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 158.75 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 158.75 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d7256e0b-cff1-4674-b05a-ac4cf8f7e69e")
-		)
-		(pin "1"
-			(uuid "d204ce42-ae98-4424-b25f-0a393504c9cc")
-		)
-		(instances
-			(project ""
-				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/6df9e135-6b30-40c1-b1f1-f69b9f79101d"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 33.02 114.3 0)
 		(unit 1)
@@ -4297,7 +4296,7 @@
 				)
 			)
 		)
-		(property "Value" "22pF"
+		(property "Value" "22pF - disc"
 			(at 157.226 61.468 90)
 			(effects
 				(font
@@ -4305,7 +4304,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm"
 			(at 162.56 56.1848 0)
 			(effects
 				(font
@@ -4352,7 +4351,7 @@
 		(at 99.06 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4440,7 +4439,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "f17908c0-e2e9-4d58-83f9-de14be885e9e")

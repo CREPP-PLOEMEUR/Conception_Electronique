@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.4,
-          "height": 0.7,
-          "width": 0.7
+          "drill": 0.0,
+          "height": 2.6,
+          "width": 3.66
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -665,10 +665,6 @@
     [
       "f45ab4cc-f222-41d3-b980-a43e09b330cb",
       "Reset"
-    ],
-    [
-      "b189c293-6c32-4865-840c-f316708689bc",
-      "Power_Handler_RTC"
     ],
     [
       "1f0d96b8-cbfb-49c4-b890-a0964110ae2c",
