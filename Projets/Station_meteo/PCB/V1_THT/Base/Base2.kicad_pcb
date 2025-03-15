@@ -3732,7 +3732,7 @@
 	(footprint "CREPP_Spacers:Spacer_M3_MF_05mm"
 		(layer "F.Cu")
 		(uuid "1e5c35c8-86f9-40a7-8c43-3f586416848e")
-		(at 30.5 60.5)
+		(at 28 61.409462)
 		(property "Reference" "S1"
 			(at 0 -0.5 0)
 			(unlocked yes)
@@ -3846,78 +3846,6 @@
 				(xyz 0 -180 -180)
 			)
 		)
-	)
-	(footprint ""
-		(layer "F.Cu")
-		(uuid "1f9d7b11-a578-4a8d-ad9d-8c19065d349f")
-		(at 180.5 86)
-		(property "Reference" "STACKUP1"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "8aabb345-af96-4f3d-b373-5ec4c1b111ff")
-			(effects
-				(font
-					(size 1.5 1.5)
-					(line_spacing 0)
-					(thickness 0.3)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "172e0e30-048b-4a93-8c54-0a2e353b367a")
-			(effects
-				(font
-					(size 1.5 1.5)
-					(line_spacing 0)
-					(thickness 0.3)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1917c2b5-abd3-480e-a16d-fe35d1041413")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "51cdfb18-d49e-44d8-9a48-1725d86296ce")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr board_only exclude_from_pos_files exclude_from_bom)
-		(fp_text user "2"
-			(at 3.042856 0 0)
-			(unlocked yes)
-			(layer "B.Cu")
-			(uuid "6b15871e-1226-4aad-8f58-5931cd30adfd")
-			(effects
-				(font
-					(size 1.5 1.5)
-					(line_spacing 0)
-					(thickness 0.3)
-				)
-			)
-		)
-		(embedded_fonts no)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
@@ -6339,7 +6267,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "3ff349fd-fb00-483b-a43b-19c9d47f2c97")
-		(at 80.5 130.19 -90)
+		(at 80.55 123.3 -90)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R14"
@@ -7990,7 +7918,7 @@
 	(footprint "RF_Module:nRF24L01_Breakout"
 		(layer "F.Cu")
 		(uuid "4cd8d04d-1ff4-442c-85d6-55e227b1091a")
-		(at 80.04 126.12 180)
+		(at 67.7895 125.62 180)
 		(descr "nRF24L01 breakout board")
 		(tags "nRF24L01 adapter breakout")
 		(property "Reference" "U8"
@@ -26714,6 +26642,43 @@
 			(at 96.6625 146.199999 0)
 			(layer "F.Cu")
 			(uuid "d4c0e007-3dae-4e0f-b80b-a36e7f8b9b1b")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "F.Cu")
+		(uuid "e7b70c33-c087-4cdb-9e97-010b1a6d8f49")
+		(pts
+			(xy 97 121.55) (xy 98.5 0)
+		)
+		(height 83.5)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.2)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "121,5500 mm"
+			(at 178.7 60.775 90)
+			(layer "F.Cu")
+			(uuid "e7b70c33-c087-4cdb-9e97-010b1a6d8f49")
 			(effects
 				(font
 					(size 1.5 1.5)

@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "ac74f31d-2a4e-424e-9965-5be817f61658")
 	(paper "A5")
 	(title_block
@@ -94,10 +94,10 @@
 						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy 4.445 1.905) (xy 4.445 -1.27)
-					)
+				(arc
+					(start 3.175 5.08)
+					(mid 6.453 4.548)
+					(end 6.985 1.27)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -117,10 +117,10 @@
 						(type outline)
 					)
 				)
-				(arc
-					(start 5.715 2.54)
-					(mid 5.3521 3.4546)
-					(end 4.445 3.81)
+				(polyline
+					(pts
+						(xy 4.445 1.905) (xy 4.445 -1.27)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -130,9 +130,9 @@
 					)
 				)
 				(arc
-					(start 6.35 1.905)
-					(mid 5.8763 3.9854)
-					(end 3.81 4.445)
+					(start 3.81 4.445)
+					(mid 5.8835 3.9785)
+					(end 6.35 1.905)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -142,9 +142,9 @@
 					)
 				)
 				(arc
-					(start 6.985 1.27)
-					(mid 6.453 4.548)
-					(end 3.175 5.08)
+					(start 4.445 3.81)
+					(mid 5.3558 3.4508)
+					(end 5.715 2.54)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -155,96 +155,6 @@
 				)
 			)
 			(symbol "NRF24L01_Breakout_1_1"
-				(pin power_in line
-					(at 0 -15.24 90)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 15.24 270)
-					(length 3.81)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -5.08 0)
-					(length 3.81)
-					(name "CE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 0 0)
-					(length 3.81)
-					(name "~{CSN}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input clock
-					(at -12.7 2.54 0)
-					(length 3.81)
-					(name "SCK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -12.7 7.62 0)
 					(length 3.81)
@@ -281,6 +191,60 @@
 						)
 					)
 				)
+				(pin input clock
+					(at -12.7 2.54 0)
+					(length 3.81)
+					(name "SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 0 0)
+					(length 3.81)
+					(name "~{CSN}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -5.08 0)
+					(length 3.81)
+					(name "CE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin output line
 					(at -12.7 -7.62 0)
 					(length 3.81)
@@ -299,7 +263,44 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 0 15.24 270)
+					(length 3.81)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -15.24 90)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(no_connect
@@ -776,6 +777,10 @@
 	(sheet
 		(at 68.58 59.69)
 		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -807,33 +812,33 @@
 		)
 		(pin "IN" input
 			(at 68.58 60.96 180)
+			(uuid "61d89e54-ff5e-4c4d-8ab3-1389e45f7b34")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "61d89e54-ff5e-4c4d-8ab3-1389e45f7b34")
 		)
 		(pin "GND" passive
 			(at 68.58 63.5 180)
+			(uuid "874c2c87-f8fb-4335-9935-e81b3cf7cb3e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "874c2c87-f8fb-4335-9935-e81b3cf7cb3e")
 		)
 		(pin "OUT" output
 			(at 81.28 60.96 0)
+			(uuid "cea37591-78db-4325-8614-e93feb7dde9b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "cea37591-78db-4325-8614-e93feb7dde9b")
 		)
 		(instances
 			(project "Base"
@@ -846,6 +851,10 @@
 	(sheet
 		(at 68.58 74.93)
 		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -877,33 +886,33 @@
 		)
 		(pin "IN" input
 			(at 68.58 76.2 180)
+			(uuid "bd8262e3-a688-4e11-9bee-32dd1821f762")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "bd8262e3-a688-4e11-9bee-32dd1821f762")
 		)
 		(pin "GND" passive
 			(at 68.58 78.74 180)
+			(uuid "404a66b7-6661-4675-b9bf-0394e03dce55")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "404a66b7-6661-4675-b9bf-0394e03dce55")
 		)
 		(pin "OUT" output
 			(at 81.28 76.2 0)
+			(uuid "3c3aa6e6-5565-4142-847a-fd86b98e6ced")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "3c3aa6e6-5565-4142-847a-fd86b98e6ced")
 		)
 		(instances
 			(project "Base"
@@ -916,6 +925,10 @@
 	(sheet
 		(at 68.58 64.77)
 		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -947,33 +960,33 @@
 		)
 		(pin "IN" input
 			(at 68.58 66.04 180)
+			(uuid "68eb6948-ace4-4f11-a82b-b49a7c9157b9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "68eb6948-ace4-4f11-a82b-b49a7c9157b9")
 		)
 		(pin "GND" passive
 			(at 68.58 68.58 180)
+			(uuid "f0d143ca-8519-4629-98b0-b6c9e11f882f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f0d143ca-8519-4629-98b0-b6c9e11f882f")
 		)
 		(pin "OUT" output
 			(at 81.28 66.04 0)
+			(uuid "a34bc6b5-9df7-48da-a6c6-5ae2e357f6ba")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a34bc6b5-9df7-48da-a6c6-5ae2e357f6ba")
 		)
 		(instances
 			(project "Base"
@@ -986,6 +999,10 @@
 	(sheet
 		(at 68.58 69.85)
 		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1017,33 +1034,33 @@
 		)
 		(pin "IN" input
 			(at 68.58 71.12 180)
+			(uuid "3ad87784-587e-4705-9a2f-9634b998624e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "3ad87784-587e-4705-9a2f-9634b998624e")
 		)
 		(pin "GND" passive
 			(at 68.58 73.66 180)
+			(uuid "a6cecd2f-3539-4c21-a8eb-39007be78311")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a6cecd2f-3539-4c21-a8eb-39007be78311")
 		)
 		(pin "OUT" output
 			(at 81.28 71.12 0)
+			(uuid "f27710aa-8230-4e9d-8162-71c1c0339625")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f27710aa-8230-4e9d-8162-71c1c0339625")
 		)
 		(instances
 			(project "Base"
