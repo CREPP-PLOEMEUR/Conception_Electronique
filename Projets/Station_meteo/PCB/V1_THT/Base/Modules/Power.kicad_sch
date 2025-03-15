@@ -171,27 +171,26 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_Schottky"
+		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 1.016)
-				(hide yes)
+				(offset 0)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
+			(property "Reference" "R"
+				(at 2.032 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "D_Schottky"
-				(at 0 -2.54 0)
+			(property "Value" "R"
+				(at 0 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -199,7 +198,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at -1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -216,7 +215,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Schottky diode"
+			(property "Description" "Resistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -225,7 +224,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "diode Schottky"
+			(property "ki_keywords" "R res resistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -234,7 +233,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+			(property "ki_fp_filters" "R_*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -243,11 +242,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "D_Schottky_0_1"
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -256,36 +254,12 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
-			(symbol "D_Schottky_1_1"
+			(symbol "R_1_1"
 				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -301,9 +275,9 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -608,6 +582,434 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistor_FET:FDS4559"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "FDS4559"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/FDS4559-D.PDF"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "4.5A Id, 60V Vds, Dual N and P Channel MOSFET, 55mOhm Ron, 10V Vgs, SO8L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Dual N-Channel P-Channel MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FDS4559_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FDS4559_1_1"
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(hide yes)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "FDS4559_2_1"
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(hide yes)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 82.55 36.83)
@@ -616,10 +1018,22 @@
 		(uuid "762208b2-8d56-46a7-820c-0876a63a7eb1")
 	)
 	(junction
+		(at 35.56 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d742ca60-946d-45f9-9577-d8c6efc7f6c4")
+	)
+	(junction
 		(at 57.15 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f805067c-91a5-4084-83fe-225cc5fcf036")
+	)
+	(junction
+		(at 27.94 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "feb7937f-367d-4c03-b2b4-7eba0c322f7a")
 	)
 	(wire
 		(pts
@@ -673,6 +1087,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 36.83) (xy 30.48 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3afe295c-92f7-4f35-8605-da1a7c0a2063")
+	)
+	(wire
+		(pts
 			(xy 78.74 36.83) (xy 82.55 36.83)
 		)
 		(stroke
@@ -693,7 +1117,17 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 30.48) (xy 57.15 36.83)
+			(xy 40.64 36.83) (xy 57.15 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e0a9f44-84a8-4785-95cc-987e389727d6")
+	)
+	(wire
+		(pts
+			(xy 57.15 22.86) (xy 57.15 25.4)
 		)
 		(stroke
 			(width 0)
@@ -703,7 +1137,17 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 36.83) (xy 41.91 36.83)
+			(xy 35.56 44.45) (xy 35.56 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dd047ef-6013-47f0-a228-8799d6da9263")
+	)
+	(wire
+		(pts
+			(xy 19.05 36.83) (xy 27.94 36.83)
 		)
 		(stroke
 			(width 0)
@@ -713,13 +1157,43 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 36.83) (xy 57.15 36.83)
+			(xy 27.94 36.83) (xy 27.94 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9bf995c3-5937-46b1-9847-bb390373e4aa")
+		(uuid "97346a87-8cbf-40ed-b532-7da3436fe994")
+	)
+	(wire
+		(pts
+			(xy 35.56 48.26) (xy 27.94 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0d8f73c-8241-41dd-8cdd-d6c8b25af121")
+	)
+	(wire
+		(pts
+			(xy 27.94 48.26) (xy 27.94 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a834dfc3-357d-4a46-ad64-b09d6bed8d7b")
+	)
+	(wire
+		(pts
+			(xy 35.56 48.26) (xy 35.56 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7375e39-955a-42ad-b2ef-025d44ea7e08")
 	)
 	(wire
 		(pts
@@ -730,6 +1204,16 @@
 			(type default)
 		)
 		(uuid "b837967f-5d32-4402-8a93-3f1961937c7a")
+	)
+	(wire
+		(pts
+			(xy 57.15 33.02) (xy 57.15 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8ec7221-6410-44f2-b3ad-629c6fdc59c7")
 	)
 	(wire
 		(pts
@@ -793,7 +1277,7 @@
 	)
 	(hierarchical_label "+5V_{OUT}"
 		(shape output)
-		(at 57.15 30.48 90)
+		(at 57.15 22.86 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -815,7 +1299,7 @@
 	)
 	(hierarchical_label "+5V_{IN}"
 		(shape input)
-		(at 29.21 36.83 180)
+		(at 19.05 36.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -823,6 +1307,28 @@
 			(justify right)
 		)
 		(uuid "536d702d-d6a6-48e9-8592-eec9f81884c8")
+	)
+	(hierarchical_label "V_{OUT}"
+		(shape output)
+		(at 29.21 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "619dcebe-ce56-4c2c-a1d4-3eebe8a4c13f")
+	)
+	(hierarchical_label "RESET"
+		(shape input)
+		(at 35.56 52.07 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8a33fe74-0fd0-440d-9d71-b5c5a0aa94dd")
 	)
 	(hierarchical_label "GND"
 		(shape passive)
@@ -836,42 +1342,34 @@
 		(uuid "fa8de7e8-ec40-4ea8-8d06-4da8ff448037")
 	)
 	(symbol
-		(lib_id "Diode:1N5817")
-		(at 38.1 55.88 180)
+		(lib_id "Device:R")
+		(at 27.94 43.18 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3e541e23-89ae-4a8f-b45e-24afb6177e9a")
-		(property "Reference" "D9"
-			(at 38.4175 49.53 0)
+		(uuid "1a142b68-d8c7-4df5-a04a-a54eabcdd09b")
+		(property "Reference" "R32"
+			(at 21.844 40.386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "1N5817"
-			(at 38.4175 52.07 0)
+		(property "Value" "10k"
+			(at 21.59 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 38.1 51.435 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
-			(at 38.1 55.88 0)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 29.718 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -879,8 +1377,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "20V 1A Schottky Barrier Rectifier Diode, DO-41"
-			(at 38.1 55.88 0)
+		(property "Datasheet" "~"
+			(at 27.94 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -889,16 +1396,107 @@
 			)
 		)
 		(pin "1"
-			(uuid "c0ee7ed2-08f4-4b72-a1af-92cddc166779")
+			(uuid "d7c1f2b9-4897-4477-8d6d-819ecd19254f")
 		)
 		(pin "2"
-			(uuid "49e91d3c-06a7-42ff-a779-226b442f1e63")
+			(uuid "6849399a-7abe-45cb-be16-5b543bf59f38")
 		)
 		(instances
 			(project "Base"
 				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/1f0d96b8-cbfb-49c4-b890-a0964110ae2c"
-					(reference "D9")
+					(reference "R32")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:FDS4559")
+		(at 35.56 39.37 270)
+		(mirror x)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40259857-6a01-40c8-a2f8-6050c9c443d1")
+		(property "Reference" "Q5"
+			(at 35.814 33.274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FDS4559"
+			(at 25.146 33.528 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 33.655 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/FDS4559-D.PDF"
+			(at 31.75 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.5A Id, 60V Vds, Dual N and P Channel MOSFET, 55mOhm Ron, 10V Vgs, SO8L"
+			(at 35.56 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74b714fc-6063-47c9-95c9-d1183f8160bf")
+		)
+		(pin "3"
+			(uuid "7cbf859e-15b1-4124-90dc-05bc44afae08")
+		)
+		(pin "6"
+			(uuid "0887a88a-0039-41e2-9931-44cd478eb023")
+		)
+		(pin "2"
+			(uuid "c68062f7-9f32-4ed1-96af-ecdd5a633cd0")
+		)
+		(pin "8"
+			(uuid "75ca6437-95dd-4be0-977d-f9807d2e3c75")
+		)
+		(pin "7"
+			(uuid "c0424688-28da-478f-a474-09f8330d33da")
+		)
+		(pin "4"
+			(uuid "6a4b1cba-ee6f-4901-ba0b-27052e379a9f")
+		)
+		(pin "5"
+			(uuid "8f9123f6-1f43-4041-a8e1-70a5b7c4cf2d")
+		)
+		(instances
+			(project "Base"
+				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/1f0d96b8-cbfb-49c4-b890-a0964110ae2c"
+					(reference "Q5")
+					(unit 2)
 				)
 			)
 		)
@@ -1046,7 +1644,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N5817")
-		(at 45.72 36.83 180)
+		(at 57.15 29.21 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1055,23 +1653,25 @@
 		(fields_autoplaced yes)
 		(uuid "6ccc8336-d1b7-4cf7-8a4b-d01e8001dad1")
 		(property "Reference" "D7"
-			(at 46.0375 30.48 0)
+			(at 59.69 27.6224 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "1N5817"
-			(at 46.0375 33.02 0)
+			(at 59.69 30.1624 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 45.72 32.385 0)
+			(at 52.705 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1080,7 +1680,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
-			(at 45.72 36.83 0)
+			(at 57.15 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1089,7 +1689,7 @@
 			)
 		)
 		(property "Description" "20V 1A Schottky Barrier Rectifier Diode, DO-41"
-			(at 45.72 36.83 0)
+			(at 57.15 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1107,142 +1707,6 @@
 			(project "Base"
 				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/1f0d96b8-cbfb-49c4-b890-a0964110ae2c"
 					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N5817")
-		(at 38.1 46.99 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "70a50b07-b6b6-4ed2-9101-858ef7317d37")
-		(property "Reference" "D8"
-			(at 38.4175 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N5817"
-			(at 38.4175 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 38.1 42.545 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
-			(at 38.1 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "20V 1A Schottky Barrier Rectifier Diode, DO-41"
-			(at 38.1 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b7119fa0-5986-4e36-a444-10198ce54889")
-		)
-		(pin "2"
-			(uuid "a51e9e2a-d7d3-4c3e-824e-1ca344a51dfd")
-		)
-		(instances
-			(project "Base"
-				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/1f0d96b8-cbfb-49c4-b890-a0964110ae2c"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 39.37 25.4 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "73808072-16c3-4bcc-8f99-e106c7511255")
-		(property "Reference" "D6"
-			(at 39.6875 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D_Schottky"
-			(at 39.6875 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 39.37 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 39.37 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 39.37 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9ea7240c-8de2-4e85-adb3-43142a8c760c")
-		)
-		(pin "2"
-			(uuid "642adb64-4ff4-4bf3-bd9b-795df1dafde9")
-		)
-		(instances
-			(project ""
-				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/1f0d96b8-cbfb-49c4-b890-a0964110ae2c"
-					(reference "D6")
 					(unit 1)
 				)
 			)

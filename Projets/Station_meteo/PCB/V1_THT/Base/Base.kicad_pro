@@ -675,7 +675,7 @@
     ],
     [
       "cc471aaa-bd22-40bf-985c-f397c4cb895a",
-      "Anemometer"
+      "Anemometer-Rain-Wheathervane"
     ],
     [
       "b9b4d04a-b087-4d8c-8b7c-938f93baaf3f",
@@ -688,6 +688,10 @@
     [
       "f45ab4cc-f222-41d3-b980-a43e09b330cb",
       "Reset"
+    ],
+    [
+      "8f38a0ef-f48e-4130-b111-7cc8293f6ed6",
+      "OLED"
     ],
     [
       "1f0d96b8-cbfb-49c4-b890-a0964110ae2c",
@@ -728,6 +732,14 @@
     [
       "16c1cf0a-7f1e-4c3f-ad57-311ae10c4222",
       "Power_Handler_Temperature_Sun"
+    ],
+    [
+      "184e6d5a-fe91-4778-82c4-a06795d97663",
+      "Translator"
+    ],
+    [
+      "e32a4cfa-d5c8-47b6-b3a2-b279f1c8fe43",
+      "Translator1"
     ]
   ],
   "text_variables": {}

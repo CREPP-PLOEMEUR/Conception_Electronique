@@ -10,7 +10,7 @@
 		(rev "1.0")
 	)
 	(lib_symbols
-		(symbol "Connector:Screw_Terminal_01x02"
+		(symbol "Connector:Screw_Terminal_01x04"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -19,15 +19,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 2.54 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Screw_Terminal_01x02"
-				(at 0 -5.08 0)
+			(property "Value" "Screw_Terminal_01x04"
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -52,7 +52,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -79,16 +79,28 @@
 					(hide yes)
 				)
 			)
-			(symbol "Screw_Terminal_01x02_1_1"
+			(symbol "Screw_Terminal_01x04_1_1"
 				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 2.8702) (xy 0.3302 2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(polyline
@@ -106,6 +118,30 @@
 				(polyline
 					(pts
 						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -4.7498) (xy 0.3302 -5.588)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 3.048) (xy 0.508 2.2098)
 					)
 					(stroke
 						(width 0.1524)
@@ -139,6 +175,29 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy -0.3556 -4.572) (xy 0.508 -5.4102)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(circle
 					(center 0 0)
 					(radius 0.635)
@@ -161,8 +220,19 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 0 -5.08)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -180,7 +250,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -197,200 +267,10 @@
 						)
 					)
 				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Sensor:BME280"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -8.89 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "BME280"
-				(at 7.62 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_LGA:Bosch_LGA-8_2.5x2.5mm_P0.65mm_ClockwisePinNumbering"
-				(at 38.1 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme280-ds002.pdf"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "3-in-1 sensor, humidity, pressure, temperature, I2C and SPI interface, 1.71-3.6V, LGA-8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Bosch pressure humidity temperature environment environmental measurement digital"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*LGA*2.5x2.5mm*P0.65mm*Clockwise*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BME280_0_1"
-				(rectangle
-					(start -10.16 10.16)
-					(end 10.16 -10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "BME280_1_1"
-				(pin power_in line
-					(at -2.54 15.24 270)
-					(length 5.08)
-					(name "VDDIO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -15.24 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 15.24 270)
-					(length 5.08)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 -15.24 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 7.62 180)
-					(length 5.08)
-					(name "SDO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 15.24 2.54 180)
-					(length 5.08)
-					(name "SCK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -2.54 180)
-					(length 5.08)
-					(name "SDI"
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -405,17 +285,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at 15.24 -7.62 180)
-					(length 5.08)
-					(name "CSB"
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -447,63 +327,73 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 58.42) (xy 71.12 60.96)
+			(xy 83.82 53.34) (xy 83.82 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "055499d4-eb43-4e09-b1a2-6864b56bd2ed")
+		(uuid "0ea38d36-ff3a-47cb-9494-9fe0d690254e")
 	)
 	(wire
 		(pts
-			(xy 71.12 53.34) (xy 71.12 52.07)
+			(xy 63.5 55.88) (xy 64.77 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0d5d7bdc-0129-42bd-acc2-72f88896894b")
+		(uuid "1426dfec-d599-43df-915b-b542933ff173")
 	)
 	(wire
 		(pts
-			(xy 71.12 52.07) (xy 74.93 52.07)
+			(xy 62.23 58.42) (xy 64.77 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "21ea33c0-4b1b-450a-a9fa-1d11c8647bd6")
+		(uuid "39d35ae0-73ed-4b0f-b839-656e60eae260")
 	)
 	(wire
 		(pts
-			(xy 62.23 50.8) (xy 68.58 50.8)
+			(xy 77.47 48.26) (xy 78.74 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "268537ee-32e0-4237-acf0-74ed7de5fcc8")
+		(uuid "3bd0d028-1102-4255-a57e-e32449c8c748")
 	)
 	(wire
 		(pts
-			(xy 68.58 49.53) (xy 68.58 50.8)
+			(xy 77.47 50.8) (xy 83.82 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "60a11178-5c00-4f5b-9263-03dc4c7286e3")
+		(uuid "3f06d866-5153-43f3-a8f3-e7e8e3883cd9")
 	)
 	(wire
 		(pts
-			(xy 46.99 55.88) (xy 74.93 55.88)
+			(xy 88.9 43.18) (xy 90.17 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "697d1828-d373-4221-8eb9-f612933eb165")
+		(uuid "6408fa6f-299f-4691-bd74-19f903e85fe0")
+	)
+	(wire
+		(pts
+			(xy 62.23 50.8) (xy 64.77 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6afd10ac-c012-4d76-8671-631735317e9b")
 	)
 	(bus
 		(pts
@@ -517,6 +407,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 58.42) (xy 83.82 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72eac733-9659-4ec5-9941-23eea33337e7")
+	)
+	(wire
+		(pts
 			(xy 46.99 50.8) (xy 46.99 53.34)
 		)
 		(stroke
@@ -527,23 +427,63 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 58.42) (xy 71.12 58.42)
+			(xy 46.99 53.34) (xy 48.26 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "85730c61-8971-4644-a6a1-546cef644dcd")
+		(uuid "811232ba-2c35-4119-aedc-7f041e1d6ee2")
 	)
 	(wire
 		(pts
-			(xy 74.93 49.53) (xy 68.58 49.53)
+			(xy 57.15 34.29) (xy 58.42 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b3aa9972-909b-4d26-b66b-0a218c5215ad")
+		(uuid "8bb4e6cc-f568-4a7e-9f64-c9541a75c6b6")
+	)
+	(wire
+		(pts
+			(xy 90.17 64.77) (xy 90.17 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e293c38-3020-4fa9-b724-5e800f22d13d")
+	)
+	(wire
+		(pts
+			(xy 77.47 55.88) (xy 78.74 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a96c9e2d-2d49-45cf-aa4e-009c92db9a78")
+	)
+	(wire
+		(pts
+			(xy 88.9 41.91) (xy 88.9 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baad56a2-723c-4212-9f65-f270419705d4")
+	)
+	(wire
+		(pts
+			(xy 63.5 48.26) (xy 64.77 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4d9dd3c-42ed-43a4-b04d-46939bdea95a")
 	)
 	(bus
 		(pts
@@ -557,23 +497,73 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 53.34) (xy 71.12 53.34)
+			(xy 46.99 55.88) (xy 48.26 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dcd8dd10-bf2a-46ce-948a-08db8c41540d")
+		(uuid "d253519a-f1a0-44e0-9333-ddbee1f7e904")
 	)
 	(wire
 		(pts
-			(xy 62.23 60.96) (xy 71.12 60.96)
+			(xy 83.82 58.42) (xy 83.82 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6e49810-07f5-4838-80e4-827a08dccc04")
+	)
+	(wire
+		(pts
+			(xy 83.82 55.88) (xy 90.17 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbf4de73-c13f-418b-a6fb-b17969fd2f07")
+	)
+	(wire
+		(pts
+			(xy 62.23 64.77) (xy 90.17 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e8759ef3-0646-4115-9b30-c05d0b585956")
+	)
+	(wire
+		(pts
+			(xy 62.23 41.91) (xy 88.9 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f35ecf34-25cb-4ae2-af26-6691705406ad")
+	)
+	(wire
+		(pts
+			(xy 90.17 43.18) (xy 90.17 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6031dbf-a395-49d2-859f-e67b38c76d1c")
+	)
+	(wire
+		(pts
+			(xy 83.82 53.34) (xy 90.17 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbac6990-d92a-4d8a-b747-c60e9af886d3")
 	)
 	(label "SCL"
 		(at 48.26 55.88 0)
@@ -585,6 +575,36 @@
 		)
 		(uuid "574209cf-8751-4290-bf95-5026c6fe0afd")
 	)
+	(label "+3.3V"
+		(at 66.04 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "71f34595-bb4f-4e82-9f2e-c7b7a58691c3")
+	)
+	(label "+5.0V"
+		(at 63.5 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7289ee30-6839-465d-8853-59575e82ae18")
+	)
+	(label "+3.3V"
+		(at 78.74 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d779cfa-bca6-4d6d-8fc2-1e128ca0119c")
+	)
 	(label "SDA"
 		(at 48.26 53.34 0)
 		(effects
@@ -594,6 +614,56 @@
 			(justify left bottom)
 		)
 		(uuid "9594015e-c65d-4138-b3e7-3b61b8c64d95")
+	)
+	(label "+5.0V"
+		(at 58.42 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9aa5dac7-b48d-493e-a984-056174ac1064")
+	)
+	(label "+3.3V"
+		(at 78.74 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b752fd11-7fde-4991-b3d6-407d152dc8dc")
+	)
+	(label "SDA"
+		(at 62.23 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d322b193-fc7c-4a89-add3-fead01a9a181")
+	)
+	(label "+5.0V"
+		(at 63.5 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "de003524-f8b4-4dfc-8ae6-4c8f13d4401f")
+	)
+	(label "SCL"
+		(at 62.23 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "edce42ff-5a40-483b-911e-d917d0d3a915")
 	)
 	(hierarchical_label "{I2C}"
 		(shape input)
@@ -606,9 +676,20 @@
 		)
 		(uuid "0a84ae99-4dd0-48c8-91fe-7f848d4eb74f")
 	)
-	(hierarchical_label "+5V"
+	(hierarchical_label "+5.0V"
 		(shape input)
-		(at 62.23 50.8 180)
+		(at 57.15 34.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1305ce35-62a2-48a6-8088-db2507c9dd46")
+	)
+	(hierarchical_label "+3.3V"
+		(shape input)
+		(at 62.23 41.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -619,7 +700,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape passive)
-		(at 62.23 60.96 180)
+		(at 62.23 64.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -629,17 +710,17 @@
 		(uuid "a8dde7ca-1368-46ec-b3e5-32b1006a6a36")
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 80.01 55.88 0)
+		(lib_id "Connector:Screw_Terminal_01x04")
+		(at 95.25 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3cc63738-6f8f-42e7-84d3-cefa53c62f83")
-		(property "Reference" "J10"
-			(at 82.55 55.8799 0)
+		(uuid "0b28de7b-941a-46a8-b4ac-35a38756840a")
+		(property "Reference" "J19"
+			(at 97.79 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -647,8 +728,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "KF301-5.0-2P"
-			(at 82.55 58.4199 0)
+		(property "Value" "Screw_Terminal_01x04"
+			(at 97.79 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -656,8 +737,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
-			(at 80.01 55.88 0)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal"
+			(at 95.25 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -666,7 +747,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 80.01 55.88 0)
+			(at 95.25 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -674,8 +755,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 80.01 55.88 0)
+		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 95.25 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -683,103 +764,150 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "908fb378-750c-43aa-8e28-522351faeed9")
+		(pin "4"
+			(uuid "c1674e5a-2615-4dfd-a6fb-098879fdb79a")
+		)
+		(pin "3"
+			(uuid "32a61341-6790-4dc8-bb96-0c2b5aff67b2")
 		)
 		(pin "2"
-			(uuid "a3ed08e8-6a1b-4a37-9956-79a78da01ea3")
+			(uuid "8feb443d-fb8e-414b-bf9c-72ac820615dd")
+		)
+		(pin "1"
+			(uuid "3b5c00f2-54f3-416e-87ba-151bf32c529d")
+		)
+		(instances
+			(project ""
+				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/7a2fd6d5-58af-4f63-9d4c-4523140b2779"
+					(reference "J19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 64.77 46.99)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "184e6d5a-fe91-4778-82c4-a06795d97663")
+		(property "Sheetname" "Translator"
+			(at 64.77 46.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Sheetfile" "Translator.kicad_sch"
+			(at 64.77 52.6546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "+3.3V" input
+			(at 77.47 48.26 0)
+			(uuid "375be467-5a6d-47b6-bac5-c50fc68796fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+5V" input
+			(at 64.77 48.26 180)
+			(uuid "18140877-d87f-4a40-bc40-a2a942ab2769")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "S_{3.3V}" bidirectional
+			(at 77.47 50.8 0)
+			(uuid "5bb3182f-8ae8-4f45-a691-454a281614ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "S_{5.0V}" bidirectional
+			(at 64.77 50.8 180)
+			(uuid "8e8d046d-888c-4a53-ae86-b5d02c4ba287")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
 		)
 		(instances
 			(project "Base"
 				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/7a2fd6d5-58af-4f63-9d4c-4523140b2779"
-					(reference "J10")
-					(unit 1)
+					(page "19")
 				)
 			)
 		)
 	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 80.01 49.53 0)
-		(unit 1)
+	(sheet
+		(at 64.77 54.61)
+		(size 12.7 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "49b2d075-be00-4c48-85fd-8fbde6ec8daa")
-		(property "Reference" "J12"
-			(at 82.55 49.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
+		(stroke
+			(width 0.1524)
+			(type solid)
 		)
-		(property "Value" "KF301-5.0-2P"
-			(at 82.55 52.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
+		(fill
+			(color 0 0 0 0.0000)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
-			(at 80.01 49.53 0)
+		(uuid "e32a4cfa-d5c8-47b6-b3a2-b279f1c8fe43")
+		(property "Sheetname" "Translator1"
+			(at 64.77 53.8984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 80.01 49.53 0)
+		(property "Sheetfile" "Translator.kicad_sch"
+			(at 64.77 60.2746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 80.01 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "13dfb1b6-b53e-4c77-ada2-a2812c82cb52")
-		)
-		(pin "2"
-			(uuid "82ad6fc6-93ff-4814-94d5-f387a51a2ca0")
-		)
-		(instances
-			(project ""
-				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/7a2fd6d5-58af-4f63-9d4c-4523140b2779"
-					(reference "J12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Sensor:BME280")
-		(at 137.16 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "afef37c1-9e19-4a4c-af10-eb2b56be9547")
-		(property "Reference" "U6"
-			(at 125.73 33.0199 0)
+		(pin "+3.3V" input
+			(at 77.47 55.88 0)
+			(uuid "89813e2a-4d90-48c5-ac69-f47f6da80e6e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -787,8 +915,19 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BME280"
-			(at 125.73 35.5599 0)
+		(pin "+5V" input
+			(at 64.77 55.88 180)
+			(uuid "10760517-5bdc-4a5c-8330-a868c76c542a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "S_{3.3V}" bidirectional
+			(at 77.47 58.42 0)
+			(uuid "700d4b46-920e-4bc7-be4c-2c84c2127d3a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -796,62 +935,20 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_LGA:Bosch_LGA-8_2.5x2.5mm_P0.65mm_ClockwisePinNumbering"
-			(at 175.26 45.72 0)
+		(pin "S_{5.0V}" bidirectional
+			(at 64.77 58.42 180)
+			(uuid "a4f90eb1-92a8-4ba8-a39d-f402121dbc7b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
-		)
-		(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme280-ds002.pdf"
-			(at 137.16 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3-in-1 sensor, humidity, pressure, temperature, I2C and SPI interface, 1.71-3.6V, LGA-8"
-			(at 137.16 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "8607251e-c73e-4a31-8f7b-7f7560620a73")
-		)
-		(pin "6"
-			(uuid "7b5c0e5d-3991-4905-8bef-7bbf04f19c66")
-		)
-		(pin "7"
-			(uuid "e354103f-fd7f-42fa-b605-a62582400d28")
-		)
-		(pin "1"
-			(uuid "18e49ffa-4c5f-43a4-8eb7-b2ce87c89400")
-		)
-		(pin "5"
-			(uuid "6f852f21-c304-42a2-9965-d90f933292ef")
-		)
-		(pin "4"
-			(uuid "ac7980f8-060e-4648-8f35-8bf1b0b191a5")
-		)
-		(pin "2"
-			(uuid "7ea2cbe4-614c-4de9-8c5b-0f1720e8da61")
-		)
-		(pin "8"
-			(uuid "eeec2a81-ee06-463b-b01b-a762461e0766")
 		)
 		(instances
-			(project ""
+			(project "Base"
 				(path "/4bc9f80e-0a24-4618-ba5d-3a118070c43e/7a2fd6d5-58af-4f63-9d4c-4523140b2779"
-					(reference "U6")
-					(unit 1)
+					(page "20")
 				)
 			)
 		)

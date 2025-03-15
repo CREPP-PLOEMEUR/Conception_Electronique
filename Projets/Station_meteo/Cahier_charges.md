@@ -1,12 +1,11 @@
 # Capteurs
 
 
-
 - Kit de capteurs sur Internet 
 
 
-    - Température     (BME)  -
-    - pression
+    - Température     (BME280)  -
+    - pression          
     - Humidité
     - Vitesse du vent
     - Direction du vent 
@@ -14,13 +13,22 @@
     - Position GPS - NEO-M6
     - RTC - DS3231
 
+- Connecteurs : 
 
+- USB-C
+- LED 
+- Bouton Reset
+
+- Connecteur 5 points
+- Connecteur 4 points
+- Connecteur 3 points
+- Connecteur 2 points
 
 Liste du matériel : 
 
 - Borniers 5.08mm
-- Microcntrolleur ATMEGA328-PU
-- Transistor FDS4435BZ
+- Microcontrolleur ATMEGA328-PU
+- Transistor FDS4559
 
 
 Options :  - Ensoleillement (GUVA-S12SD)
